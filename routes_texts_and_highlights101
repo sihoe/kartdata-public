@@ -1,0 +1,810 @@
+{
+  "_meta": {
+    "generatedBy": "chatgpt",
+    "note": "Merged route texts + highlights/tips i18n."
+  },
+  "routes": {
+    "smadoldalen-rundt": {
+      "title": {
+        "no": "Smådøldalen rundt",
+        "en": "Smådøldalen Circuit",
+        "de": "Smådøldalen-Runde"
+      },
+      "description": {
+        "no": "En variert og morsom sykkeltur fra Dagalifjell, gjennom Smådøl og Uvdal, med åpne vidder, idylliske seterdaler og storslåtte fjell.",
+        "en": "A varied and fun bike ride from Dagalifjell through Smådøl and Uvdal, featuring open plateaus, idyllic mountain farms and stunning mountain scenery.",
+        "de": "Eine abwechslungsreiche und unterhaltsame Radtour von Dagalifjell durch Smådøl und Uvdal mit offenen Hochebenen, idyllischen Almgebieten und großartiger Berglandschaft."
+      },
+      "highlights": {
+        "no": [
+          "Flott høyfjellsterreng med åpne vidder og utsikt",
+          "Avslappende utforkjøring ned Smådøldalen",
+          "Uvdal stavkirke er rikt dekorert og med vakker utsikt over Uvdal"
+        ],
+        "en": [
+          "High-mountain terrain with open plateaus and big views",
+          "Relaxing descent down Smådøldalen",
+          "Uvdal Stave Church – richly decorated, with a beautiful view over Uvdal"
+        ],
+        "de": [
+          "Hochgebirgsgelände mit offenen Hochebenen und weiter Aussicht",
+          "Entspannte Abfahrt durch das Smådøldalen",
+          "Stabkirche Uvdal – reich verziert, mit schönem Blick über Uvdal"
+        ]
+      },
+      "tips": {
+        "no": [
+          "Sjekk fjellvær før du drar – været snur fort i høyden",
+          "Ta bussen opp til Dagalifjell om du ikke vil ha en rolig tur"
+        ],
+        "en": [
+          "Check the mountain forecast – weather can change fast at altitude",
+          "Take the bus up to Dagalifjell if you want to skip the long, steady climb"
+        ],
+        "de": [
+          "Schau dir die Bergwettervorhersage an – das Wetter kann in der Höhe schnell umschlagen",
+          "Nimm den Bus nach Dagalifjell, wenn du den langen, gleichmäßigen Anstieg vermeiden willst"
+        ]
+      }
+    },
+    "fjellruta-over-vegglifjell": {
+      "title": {
+        "no": "Fjellruta over Vegglifjell",
+        "en": "The Mountain Route across Vegglifjell",
+        "de": "Fjellruta über das Vegglifjell"
+      },
+      "description": {
+        "no": "Perfekt for sykkelferie med to fjelloverganger, nydelige kulturlandskap og flotte opplevelser langs hele ruten både i Numedal og Tinn.",
+        "en": "Perfect for a cycling holiday, with two mountain passes, beautiful cultural landscapes and great experiences throughout the route in both Numedal and Tinn.",
+        "de": "Ideal für einen Radurlaub mit zwei Gebirgspässen, wunderschönen Kulturlandschaften und tollen Erlebnissen entlang der gesamten Strecke in Numedal und Tinn."
+      },
+      "highlights": {
+        "no": [
+          "To fjelloverganger og variert kulturlandskap",
+          "Sykkelferie-rute med mye å oppleve underveis",
+          "Mest asfalt – langtur som går fint i jevnt tempo"
+        ],
+        "en": [
+          "Two mountain passes and varied cultural landscapes",
+          "A true cycling-holiday route with plenty to experience along the way",
+          "Mostly asphalt – a long ride that works well at a steady pace"
+        ],
+        "de": [
+          "Zwei Gebirgspässe und abwechslungsreiche Kulturlandschaften",
+          "Eine echte Radferienroute mit vielen Erlebnissen unterwegs",
+          "Überwiegend Asphalt – eine lange Tour, die sich gut in gleichmäßigem Tempo fahren lässt"
+        ]
+      },
+      "tips": {
+        "no": [
+          "Bruk 2–3 dager og ta deg tid til stopp underveis",
+          "Sjekk værmeldingene i fjellet"
+        ],
+        "en": [
+          "Plan 2–3 days and take time for stops along the way",
+          "Check the mountain forecast"
+        ],
+        "de": [
+          "Plane 2–3 Tage ein und nimm dir Zeit für Stopps unterwegs",
+          "Schau dir die Wetterprognosen fürs Gebirge an"
+        ]
+      }
+    },
+    "blefjell-juvefossen": {
+      "title": {
+        "no": "Blefjell - Juvefossen",
+        "en": "Blefjell – Juvefossen",
+        "de": "Blefjell – Juvefossen"
+      },
+      "description": {
+        "no": "En flott tur fra Blefjell Lodge til den spektakulære Juvefossen, med 50 meter fritt fall, varme svaberg og naturlige badebassenger.",
+        "en": "A great ride from Blefjell Lodge to the spectacular Juvefossen waterfall, with a 50-metre free fall, sun-warmed rocks, and natural plunge pools.",
+        "de": "Eine tolle Tour von der Blefjell Lodge zum spektakulären Juvefossen mit 50 Metern freiem Fall, warmen Felsplatten und natürlichen Badebecken."
+      },
+      "highlights": {
+        "no": [
+          "Juvefossen – fantastisk syn i skogen",
+          "Flotte bademuligheter både over og under Juvefossen – perfekt på varme dager",
+          "Vidstrakt utsikt over Blefjell"
+        ],
+        "en": [
+          "Juvefossen – an impressive sight hidden in the forest",
+          "Great swimming spots both above and below Juvefossen – perfect on warm days",
+          "Wide-open views across Blefjell"
+        ],
+        "de": [
+          "Juvefossen – ein beeindruckender Anblick, versteckt im Wald",
+          "Tolle Badestellen ober- und unterhalb des Juvefossen – perfekt an warmen Tagen",
+          "Weite Ausblicke über das Blefjell"
+        ]
+      },
+      "tips": {
+        "no": [
+          "Ta med badetøy",
+          "Vannføring varierer: fossen er ofte mest imponerende tidlig i sesongen",
+          "Hold avstand til kanten på toppen av Juvefossen"
+        ],
+        "en": [
+          "Bring swimwear",
+          "Water flow varies: the waterfall is often most impressive early in the season",
+          "Keep a safe distance from the edge at the top of Juvefossen"
+        ],
+        "de": [
+          "Badesachen mitnehmen",
+          "Der Wasserstand variiert: Am eindrucksvollsten ist der Wasserfall oft früh in der Saison",
+          "Halte oben am Juvefossen Abstand zur Kante"
+        ]
+      }
+    },
+    "trillemarka-rundt": {
+      "title": {
+        "no": "Trillemarka rundt",
+        "en": "Trillemarka Loop",
+        "de": "Trillemarka-Runde"
+      },
+      "description": {
+        "no": "En fantastisk og krevende tur rundt et av Norges største naturreservat, Trillemarka Rollagsfjell, med flott gammel skog, kulturminner og badevann, og kanskje en svipptur til Madonnaen.",
+        "en": "A fantastic and challenging ride around one of Norway’s largest nature reserves, Trillemarka Rollagsfjell, with ancient forests, cultural heritage sites and swimming spots – and perhaps a detour to the Madonna statue.",
+        "de": "Eine fantastische und anspruchsvolle Tour rund um eines der größten Naturschutzgebiete Norwegens, Trillemarka Rollagsfjell, mit uralten Wäldern, Kulturdenkmalen und Badeseen – und vielleicht einem Abstecher zur Madonnenstatue."
+      },
+      "highlights": {
+        "no": [
+          "Trillemarka Rollagsfjell – villmarksfølelse og gammelskog i et av Norges største naturreservat",
+          "Krevende rundtur der du må regne med å trille sykkelen",
+          "Fantastisk mat og vertskap på Eggedal Borgerstue"
+        ],
+        "en": [
+          "Trillemarka Rollagsfjell – wilderness feel and ancient forest in one of Norway’s largest nature reserves",
+          "A demanding loop where you should expect to push the bike on some sections",
+          "Fantastic food and hosts at Eggedal Borgerstue"
+        ],
+        "de": [
+          "Trillemarka Rollagsfjell – Wildnisgefühl und Urwald in einem der größten Naturschutzgebiete Norwegens",
+          "Anspruchsvolle Runde – rechne damit, das Rad teilweise schieben zu müssen",
+          "Fantastisches Essen und Gastgeber in der Eggedal Borgerstue"
+        ]
+      },
+      "tips": {
+        "no": [
+          "Last ned GPX offline – dekning kan være ustabil i Trillemarka",
+          "Ta med ekstra mat/drikke, turen er lang og krevende med få handlemuligheter underveis",
+          "Legg inn overnatting og bruk 2 dager på turen"
+        ],
+        "en": [
+          "Download the GPX for offline use – mobile coverage can be unstable in Trillemarka",
+          "Bring extra food and water; the ride is long and tough with few places to resupply",
+          "Consider an overnight stay and split it into 2 days"
+        ],
+        "de": [
+          "Lade die GPX-Datei offline herunter – der Empfang kann in Trillemarka unzuverlässig sein",
+          "Nimm extra Essen und Wasser mit; die Tour ist lang und anspruchsvoll, mit wenigen Einkaufsmöglichkeiten",
+          "Plane eine Übernachtung ein und fahre die Tour in 2 Tagen"
+        ]
+      }
+    },
+    "kunst-og-koboltrunden": {
+      "title": {
+        "no": "Kunst- og koboltrunden",
+        "en": "Art and Cobalt Loop",
+        "de": "Kunst- und Kobaltrunde"
+      },
+      "description": {
+        "no": "En langtur fra Lampeland til Blaafarveværket og Kittelsen-museet, gjennom skoger og landskap som inspirerte eventyrmaleren Th. Kittelsen.",
+        "en": "A long tour from Lampeland to the Blaafarveværket and the Kittelsen Museum, through forests and landscapes that inspired the fairy-tale painter Theodor Kittelsen.",
+        "de": "Eine lange Radtour von Lampeland zum Blaafarveværket und zum Kittelsen-Museum – durch Wälder und Landschaften, die den Märchenmaler Th. Kittelsen inspirierten."
+      },
+      "highlights": {
+        "no": [
+          "Blaafarveværket, koboltgruvene og Th. Kittelsens kunst",
+          "Flotte kulturlandskap og stort sett stille veier med lite trafikk",
+          "Mest asfalt – godt tilrettelagt for syklister"
+        ],
+        "en": [
+          "Blaafarveværket, the cobalt mines, and Theodor Kittelsen’s art",
+          "Beautiful cultural landscapes and mostly quiet roads with little traffic",
+          "Mostly asphalt – well suited to cyclists"
+        ],
+        "de": [
+          "Blaafarveværket, die Kobaltminen und die Kunst von Th. Kittelsen",
+          "Schöne Kulturlandschaften und überwiegend ruhige Straßen mit wenig Verkehr",
+          "Überwiegend Asphalt – gut für Radfahrer geeignet"
+        ]
+      },
+      "tips": {
+        "no": [
+          "Sjekk åpningstidene til Blaafarveværket og Lauvlia kunstnerhjem",
+          "Ta med mat og vann, det er få handlemuligheter underveis"
+        ],
+        "en": [
+          "Check opening hours for Blaafarveværket and Lauvlia (Kittelsen’s artist home)",
+          "Bring food and water – there are few places to resupply along the route"
+        ],
+        "de": [
+          "Öffnungszeiten von Blaafarveværket und Lauvlia (Kittelsens Künstlerheim) prüfen",
+          "Essen und Wasser mitnehmen – unterwegs gibt es nur wenige Einkaufsmöglichkeiten"
+        ]
+      }
+    },
+    "rollag-rundt": {
+      "title": {
+        "no": "Rollag rundt",
+        "en": "Rollag Loop",
+        "de": "Rollag-Runde"
+      },
+      "description": {
+        "no": "En flott rundtur i Rollag-området, med vakker utsikt og flere historiske stoppesteder underveis.",
+        "en": "A great circular tour in the Rollag area, offering beautiful views and several historical stops along the way.",
+        "de": "Eine schöne Rundtour durch die Gegend von Rollag mit herrlicher Aussicht und mehreren historischen Haltepunkten."
+      },
+      "highlights": {
+        "no": [
+          "Rolig rundtur i flotte omgivelser",
+          "Perfekt for familier",
+          "Flott å kombinere med dresinsykling på Numedalsbanen"
+        ],
+        "en": [
+          "A calm loop in beautiful surroundings",
+          "Perfect for families",
+          "Great to combine with rail biking (draisines) on the Numedal Railway"
+        ],
+        "de": [
+          "Ruhige Rundtour in schöner Umgebung",
+          "Perfekt für Familien",
+          "Lässt sich gut mit Draisinenfahren auf der Numedalsbahn kombinieren"
+        ]
+      },
+      "tips": {
+        "no": [
+          "Sjekk åpningstidene på Rollag Bygdetun og Rollag Stavkirke"
+        ],
+        "en": [
+          "Check opening hours for Rollag Bygdetun and Rollag Stave Church"
+        ],
+        "de": [
+          "Öffnungszeiten von Rollag Bygdetun und der Stabkirche Rollag prüfen"
+        ]
+      }
+    },
+    "baklivegen-rundt": {
+      "title": {
+        "no": "Baklivegen rundt",
+        "en": "Baklivegen Loop",
+        "de": "Baklivegen-Runde"
+      },
+      "description": {
+        "no": "En variert sykkeltur med nydelig utsikt mot storslåtte fjell, flott kulturlandskap og besøk til Uvdal stavkirke.",
+        "en": "A varied bike ride with stunning views of majestic mountains, beautiful cultural landscapes and a visit to Uvdal Stave Church.",
+        "de": "Eine abwechslungsreiche Radtour mit herrlicher Aussicht auf majestätische Berge, schöne Kulturlandschaften und einem Besuch der Stabkirche von Uvdal."
+      },
+      "highlights": {
+        "no": [
+          "Uvdal stavkirke er rikt dekorert og med vakker utsikt over Uvdal",
+          "Enkel og variert rute i flott kulturlandskap",
+          "Perfekt å kombinere med aktivitetsparken på Camp Uvdal"
+        ],
+        "en": [
+          "Uvdal Stave Church – richly decorated, with a beautiful view over Uvdal",
+          "An easy, varied route through lovely cultural landscapes",
+          "Perfect to combine with the activity park at Camp Uvdal"
+        ],
+        "de": [
+          "Stabkirche Uvdal – reich verziert, mit schönem Blick über Uvdal",
+          "Einfache, abwechslungsreiche Route durch schöne Kulturlandschaften",
+          "Perfekt zu kombinieren mit dem Aktivitätspark im Camp Uvdal"
+        ]
+      },
+      "tips": {
+        "no": [
+          "Sjekk åpningstider for Uvdal stavkirke og bygdetun"
+        ],
+        "en": [
+          "Check opening hours for Uvdal Stave Church and the local museum"
+        ],
+        "de": [
+          "Öffnungszeiten der Stabkirche Uvdal und des Heimatmuseums prüfen"
+        ]
+      }
+    },
+    "numedalsruta-nasjonal-rute-5": {
+      "title": {
+        "no": "Numedalsruta (Nasjonal rute 5)",
+        "en": "Numedalsruta (National Route 5)",
+        "de": "Numedalsruta (Nationale Route 5)"
+      },
+      "description": {
+        "no": "Turen går gjennom hele Numedal og tar deg fra høyfjellet på Dagali gjennom middelalderhistorie og levende kulturlandskap og bygder.",
+        "en": "This route runs through the entire Numedal valley, taking you from the high mountains at Dagali through medieval history and vibrant cultural landscapes and villages.",
+        "de": "Diese Route führt durch das gesamte Numedal, vom Hochgebirge bei Dagali über mittelalterliche Geschichte bis hin zu lebendigen Kulturlandschaften und Dörfern."
+      },
+      "highlights": {
+        "no": [
+          "Variert rute fra gjennom hele Numedal fra høyfjell til dal og bygder",
+          "Historiske middelalderbygg og levende kulturlandskap langs ruten"
+        ],
+        "en": [
+          "A varied route through the entire Numedal valley – from high mountains to villages and farmland",
+          "Historic medieval buildings and living cultural landscapes along the way"
+        ],
+        "de": [
+          "Abwechslungsreiche Route durch das gesamte Numedal – vom Hochgebirge bis zu Dörfern und Kulturlandschaft",
+          "Historische mittelalterliche Bauwerke und lebendige Kulturlandschaften entlang der Strecke"
+        ]
+      },
+      "tips": {
+        "no": [
+          "Ta sykkelen på bussen en av veiene",
+          "Bruk 5-6 dager og nyt opplevelsene underveis"
+        ],
+        "en": [
+          "Take your bike on the bus for one direction",
+          "Plan 5–6 days and enjoy the experiences along the way"
+        ],
+        "de": [
+          "Nimm das Fahrrad in eine Richtung im Bus mit",
+          "Plane 5–6 Tage ein und genieße die Erlebnisse unterwegs"
+        ]
+      }
+    },
+    "blaafarverunden": {
+      "title": {
+        "no": "Blaafarverunden",
+        "en": "Blaafarveværket Tour",
+        "de": "Blaafarverunden"
+      },
+      "description": {
+        "no": "En sjarmerende rundtur fra Lampeland til Blaafarveværket. Turen går på stille veier i vakkert kulturlandskap, åpen skog, langs elver og vann og en svingom innom en av få privateide kirker i Norge.",
+        "en": "A charming round trip from Lampeland to Blaafarveværket. The route follows quiet roads through beautiful cultural landscapes, open forests, along rivers and lakes – with a stop at one of Norway’s few privately owned churches.",
+        "de": "Eine charmante Rundtour von Lampeland zum Blaafarveværket. Die Strecke verläuft auf ruhigen Straßen durch schöne Kulturlandschaften, lichte Wälder und entlang von Flüssen und Seen – mit einem Abstecher zu einer der wenigen privaten Kirchen Norwegens."
+      },
+      "highlights": {
+        "no": [
+          "Blaafarveværket, koboltgruvene og Th. Kittelsens kunst",
+          "Flotte kulturlandskap og stille veier med lite trafikk"
+        ],
+        "en": [
+          "Blaafarveværket, the cobalt mines, and Theodor Kittelsen’s art",
+          "Beautiful cultural landscapes and quiet roads with little traffic"
+        ],
+        "de": [
+          "Blaafarveværket, die Kobaltminen und die Kunst von Th. Kittelsen",
+          "Schöne Kulturlandschaften und ruhige Straßen mit wenig Verkehr"
+        ]
+      },
+      "tips": {
+        "no": [
+          "Sjekk åpningstidene til Blaafarveværket og koboltgruvene",
+          "Ta med mat og vann, det er få handlemuligheter underveis"
+        ],
+        "en": [
+          "Check opening hours for Blaafarveværket and the cobalt mines",
+          "Bring food and water – there are few places to resupply along the route"
+        ],
+        "de": [
+          "Öffnungszeiten von Blaafarveværket und den Kobaltminen prüfen",
+          "Essen und Wasser mitnehmen – unterwegs gibt es nur wenige Einkaufsmöglichkeiten"
+        ]
+      }
+    },
+    "ovrebygderunden": {
+      "title": {
+        "no": "Øvrebygderunden",
+        "en": "Øvrebygda Loop",
+        "de": "Øvrebygderunde"
+      },
+      "description": {
+        "no": "Fin tur med bademuligheter i Tessungåe og nydelig utsikt mot Tinnsjø og Austbygde. Gode muligheter for å nyte lokale spesialiteter.",
+        "en": "A pleasant ride with swimming spots along Tessungåe river and great views of Lake Tinn and Austbygde. Excellent opportunities to enjoy local delicacies.",
+        "de": "Eine schöne Tour mit Bademöglichkeiten entlang der Tessungåe und herrlicher Aussicht auf den Tinnsjø und Austbygde. Beste Voraussetzungen, um lokale Spezialitäten zu genießen."
+      },
+      "highlights": {
+        "no": [
+          "Nydelig utsikt over Tinnsjø og flotte kulturlandskap i Austbygd",
+          "Fantastiske badekulper i elva",
+          "Gode bakervarer og koselig kafe på Austbygde Bakeri"
+        ],
+        "en": [
+          "Beautiful views over Lake Tinn and lovely cultural landscapes in Austbygde",
+          "Fantastic natural plunge pools in the river",
+          "Great baked goods and a cosy café at Austbygde Bakeri"
+        ],
+        "de": [
+          "Wunderschöne Aussicht auf den Tinnsjø und schöne Kulturlandschaften in Austbygde",
+          "Fantastische Badekulpen im Fluss",
+          "Leckeres Gebäck und gemütliches Café im Austbygde Bakeri"
+        ]
+      },
+      "tips": {
+        "no": [
+          "Ta med badetøy: denne turen blir bedre med et planlagt badestopp",
+          "Unn deg noe godt på Austbygde Bakeri"
+        ],
+        "en": [
+          "Bring swimwear – this ride is better with a planned swim stop",
+          "Treat yourself at Austbygde Bakeri"
+        ],
+        "de": [
+          "Badesachen mitnehmen – mit einem geplanten Badestopp wird die Tour besser",
+          "Gönn dir etwas im Austbygde Bakeri"
+        ]
+      }
+    },
+    "imingfjell-rundt": {
+      "title": {
+        "no": "Imingfjell rundt",
+        "en": "Imingfjell Circuit",
+        "de": "Imingfjell-Runde"
+      },
+      "description": {
+        "no": "En nydelig tur over høyfjellet på Imingfjell i Uvdal. Her får kan du se vidt og bredt, mot Hardangervidda, Hallingskarvet og flotte sjøer og vann, samt ta en velfortjent pause på Solheimstulen Turisthytte og Imingfjell Turistheim.",
+        "en": "A beautiful ride across the high mountain plateau of Imingfjell in Uvdal. Enjoy panoramic views towards Hardangervidda, Hallingskarvet, and scenic lakes – with a well-earned rest at Solheimstulen or Imingfjell Turistheim.",
+        "de": "Eine wunderschöne Tour über das Hochplateau Imingfjell in Uvdal mit weitem Blick auf Hardangervidda, Hallingskarvet und idyllische Seen – mit verdienter Pause in Solheimstulen oder der Imingfjell Turisthytte."
+      },
+      "highlights": {
+        "no": [
+          "Eventyrlig sykkeltur over høyfjellet på Imingfjell – panoramautsikt i alle himmelretninger",
+          "Stiene over fjellet kan være krevende, regn med å trille sykkelen på noen partier",
+          "Flott sykkeltur langs gamle ferdselsveier/stier"
+        ],
+        "en": [
+          "A fairytale ride across the Imingfjell high plateau – panoramic views in every direction",
+          "The trails across the mountain can be demanding; expect to push the bike in places",
+          "A great ride along old travel routes and paths"
+        ],
+        "de": [
+          "Märchenhafte Tour über das Hochplateau Imingfjell – Panorama in alle Richtungen",
+          "Die Trails können anspruchsvoll sein; rechne damit, das Rad stellenweise zu schieben",
+          "Schöne Tour entlang alter Wege und Pfade"
+        ]
+      },
+      "tips": {
+        "no": [
+          "Sjekk vær og temperatur i høyden før du drar",
+          "Ta med ekstra klær, mat og vann",
+          "Bruk tid i fjellet og legg inn overnatting på Solheimstuelen og Imingfjell"
+        ],
+        "en": [
+          "Check weather and temperature at altitude before you go",
+          "Bring extra clothes, food and water",
+          "Spend time in the mountains and add an overnight at Solheimstulen and/or Imingfjell"
+        ],
+        "de": [
+          "Wetter und Temperatur in der Höhe vorab prüfen",
+          "Zusätzliche Kleidung, Essen und Wasser mitnehmen",
+          "Nimm dir Zeit im Gebirge und plane eine Übernachtung in Solheimstulen und/oder Imingfjell ein"
+        ]
+      }
+    },
+    "kirkebygda-rundt": {
+      "title": {
+        "no": "Kirkebygda rundt",
+        "en": "Kirkebygda Loop",
+        "de": "Kirkebygda-Runde"
+      },
+      "description": {
+        "no": "En familievennlig tur langs Uvdalsåe, opp til den vakre Uvdal stavkirke og gjennom idylliske kulturlandskap til Uvdal sentrum.",
+        "en": "A family-friendly ride along the Uvdalsåe river, past the beautiful Uvdal Stave Church and through idyllic cultural landscapes to Uvdal centre.",
+        "de": "Eine familienfreundliche Tour entlang der Uvdalsåe, vorbei an der schönen Stabkirche von Uvdal und durch idyllische Kulturlandschaften bis ins Zentrum von Uvdal."
+      },
+      "highlights": {
+        "no": [
+          "Uvdal stavkirke er rikt dekorert og med vakker utsikt over Uvdal",
+          "Enkel tur som passer godt for barn",
+          "Perfekt å kombinere med aktivitetsparken på Camp Uvdal"
+        ],
+        "en": [
+          "Uvdal Stave Church – richly decorated, with a beautiful view over Uvdal",
+          "An easy ride that suits children well",
+          "Perfect to combine with the activity park at Camp Uvdal"
+        ],
+        "de": [
+          "Stabkirche Uvdal – reich verziert, mit schönem Blick über Uvdal",
+          "Einfache Tour, gut für Kinder geeignet",
+          "Perfekt zu kombinieren mit dem Aktivitätspark im Camp Uvdal"
+        ]
+      },
+      "tips": {
+        "no": [
+          "Sjekk åpningstider for Uvdal stavkirke og bygdetun"
+        ],
+        "en": [
+          "Check opening hours for Uvdal Stave Church and the local museum"
+        ],
+        "de": [
+          "Öffnungszeiten der Stabkirche Uvdal und des Heimatmuseums prüfen"
+        ]
+      }
+    },
+    "norerunden": {
+      "title": {
+        "no": "Norerunden",
+        "en": "Nore Circuit",
+        "de": "Norerunde"
+      },
+      "description": {
+        "no": "En rundtur fra fjell til fjord, med høyfjelssykling over Vegglifjell, nedkjøring til Norefjorden, og vakre kulturlandskap langs Kravikfjorden og Numedalslågen.",
+        "en": "A round trip from mountains to fjords, with high-mountain cycling across Vegglifjell, a descent to Norefjorden, and beautiful cultural landscapes along Kravikfjorden and the Numedalslågen river.",
+        "de": "Eine Rundtour vom Gebirge bis zum Fjord – mit Hochgebirgsradeln über das Vegglifjell, Abfahrt zum Norefjord und herrlichen Kulturlandschaften entlang des Kravikfjords und der Numedalslågen."
+      },
+      "highlights": {
+        "no": [
+          "Panoramautsikt og flott nedkjøring fra fjell til fjord",
+          "Kombinasjon av høyfjell på Vegglifjell og idylliske kulturlandskap i dalen",
+          "Avslutt med et bad i badedammen på Veggli"
+        ],
+        "en": [
+          "Panoramic views and a great descent from mountains to fjord",
+          "A mix of high mountains on Vegglifjell and idyllic cultural landscapes in the valley",
+          "Finish with a swim in the bathing pond at Veggli"
+        ],
+        "de": [
+          "Panorama und eine tolle Abfahrt vom Gebirge zum Fjord",
+          "Mix aus Hochgebirge am Vegglifjell und idyllischer Kulturlandschaft im Tal",
+          "Zum Abschluss ein Bad im Badedammen in Veggli"
+        ]
+      },
+      "tips": {
+        "no": [
+          "Kombiner turen med dresinsykling på Numedalsbanen",
+          "Ta med deg mat og drikke, det er ikke handlemuligheter underveis "
+        ],
+        "en": [
+          "Combine the ride with rail biking on the Numedal Railway",
+          "Bring food and drink – there are no resupply options along the way"
+        ],
+        "de": [
+          "Kombiniere die Tour mit Draisinenfahren auf der Numedalsbahn",
+          "Essen und Trinken mitnehmen – unterwegs gibt es keine Einkaufsmöglichkeiten"
+        ]
+      }
+    },
+    "skagsaasen-og-kravikfjorden-rundt": {
+      "title": {
+        "no": "Skagsåsen og Kravikfjorden rundt",
+        "en": "Skagsåsen and Kravikfjorden Loop",
+        "de": "Skagsåsen- und Kravikfjorden-Runde"
+      },
+      "description": {
+        "no": "En tur gjennom skogslandskap og kulturlandsskap, her kan du besøke Nore stavkirke og stasjonene langs Numedalsbanen og nyte stille veier ved Kravikfjorden.",
+        "en": "A ride through forested and cultural landscapes, with opportunities to visit Nore Stave Church and stations along the Numedal Railway, enjoying quiet roads by Kravikfjorden.",
+        "de": "Eine Tour durch Wald- und Kulturlandschaften mit Besichtigung der Stabkirche von Nore und Bahnhöfen entlang der Numedalsbahn – auf ruhigen Straßen am Kravikfjord."
+      },
+      "highlights": {
+        "no": [
+          "Stille skoger og vann i Verjedalen",
+          "Vakre Nore stavkirke og nydelig kulturlandskap langs Kravikfjorden",
+          "Flotte stasjoner langs Numedalsbanen, et av Norges lengste kulturminner"
+        ],
+        "en": [
+          "Quiet forests and lakes in Verjedalen",
+          "Beautiful Nore Stave Church and lovely cultural landscapes along Kravikfjorden",
+          "Charming stations along the Numedal Railway – one of Norway’s longest heritage sites"
+        ],
+        "de": [
+          "Stille Wälder und Seen im Verjedalen",
+          "Schöne Stabkirche Nore und herrliche Kulturlandschaft entlang des Kravikfjords",
+          "Schöne Bahnhöfe entlang der Numedalsbahn – eines der längsten Kulturdenkmäler Norwegens"
+        ]
+      },
+      "tips": {
+        "no": [
+          "Sjekk åpningstidene i Nore stavkrike",
+          "Ta med mat og drikke, det er få handlemuligheter underveis"
+        ],
+        "en": [
+          "Check opening hours for Nore Stave Church",
+          "Bring food and drink – there are few places to resupply along the way"
+        ],
+        "de": [
+          "Öffnungszeiten der Stabkirche Nore prüfen",
+          "Essen und Trinken mitnehmen – unterwegs gibt es nur wenige Einkaufsmöglichkeiten"
+        ]
+      }
+    },
+    "bingenrunden": {
+      "title": {
+        "no": "Bingenrunden",
+        "en": "Bingen Loop",
+        "de": "Bingenrunde"
+      },
+      "description": {
+        "no": "En rundtur fra Lampeland gjennom åpen skog, langs elver og vann, med vakre kulturlandskap i Bingen og Lyngdal. Underveis kan du ta en rast ved Letmolivatnet og nyte utsikten fra Lyngdal kirke.",
+        "en": "A round trip from Lampeland through open forests, along rivers and lakes, with beautiful cultural landscapes in Bingen and Lyngdal. Take a break by Letmolivatnet and enjoy the view from Lyngdal Church.",
+        "de": "Eine Rundtour von Lampeland durch lichte Wälder, entlang von Flüssen und Seen mit schönen Kulturlandschaften in Bingen und Lyngdal. Mach eine Pause am Letmolivatnet und genieße die Aussicht von der Lyngdal-Kirche."
+      },
+      "highlights": {
+        "no": [
+          "Åpen skog, små vann og kulturlandskap som er lett å like",
+          "Perfekt tur for lave skuldre og ",
+          "Miks av underlag – god allround-tur"
+        ],
+        "en": [
+          "Open woodland, small lakes and cultural landscapes that are easy to like",
+          "A perfect ride for low shoulders and a relaxed pace",
+          "Mixed surfaces – a solid all-round tour"
+        ],
+        "de": [
+          "Lichter Wald, kleine Seen und Kulturlandschaft, die man sofort mag",
+          "Perfekte Tour für entspannte Stimmung und ruhiges Tempo",
+          "Gemischter Untergrund – eine gute Allround-Tour"
+        ]
+      },
+      "tips": {
+        "no": [
+          "Ta med mat og drikke, det er få handlemuligheter underveis"
+        ],
+        "en": [
+          "Bring food and drink – there are few places to resupply along the way"
+        ],
+        "de": [
+          "Essen und Trinken mitnehmen – unterwegs gibt es nur wenige Einkaufsmöglichkeiten"
+        ]
+      }
+    },
+    "bolkesjorunden": {
+      "title": {
+        "no": "Bolkesjørunden",
+        "en": "Bolkesjø Circuit",
+        "de": "Bolkesjørunde"
+      },
+      "description": {
+        "no": "En tur i skogslandskap og langs vakre Follsjø. Du passerer Norges eldste bolighus og vakre Bolkesjø Gaard. Start og stopp på den flotte badestranden ved Follsjø.",
+        "en": "A ride through forest landscapes and along beautiful Lake Follsjø. Pass Norway’s oldest residential building and the scenic Bolkesjø Gaard. Start and end at the lovely Follsjø beach.",
+        "de": "Eine Tour durch Waldlandschaften und entlang des schönen Follsjø. Du kommst an Norwegens ältestem Wohnhaus und dem idyllischen Bolkesjø Gaard vorbei. Start und Ziel ist der herrliche Strand am Follsjø."
+      },
+      "highlights": {
+        "no": [
+          "Flott usikt over Bolkesjø og Follsjø",
+          "Fine bademuligheter langs Follsjø"
+        ],
+        "en": [
+          "Great views over Bolkesjø and Follsjø",
+          "Nice swimming spots along Lake Follsjø"
+        ],
+        "de": [
+          "Schöne Aussicht über Bolkesjø und Follsjø",
+          "Gute Badestellen entlang des Follsjø"
+        ]
+      },
+      "tips": {
+        "no": [
+          "Ta med badetøy: truen starter og slutter på badestranden ved Follsjø",
+          "Ta med mat og drikke, det er ikke handlemuligheter eller spisesteder underveis"
+        ],
+        "en": [
+          "Bring swimwear – the ride starts and ends at the beach at Follsjø",
+          "Bring food and drink – there are no shops or eateries along the route"
+        ],
+        "de": [
+          "Badesachen mitnehmen – Start und Ziel sind am Strand am Follsjø",
+          "Essen und Trinken mitnehmen – unterwegs gibt es keine Geschäfte oder Restaurants"
+        ]
+      }
+    },
+    "follsj-rundt": {
+      "title": {
+        "no": "Follsjø rundt",
+        "en": "Follsjø Circuit",
+        "de": "Follsjø-Runde"
+      },
+      "description": {
+        "no": "Herlig kombinasjon av morsom stisykling, grus og asfalt. Nydelig kulturlandskap og mange bademuligheter langs Follsjø.",
+        "en": "A great mix of fun trail riding, gravel and asphalt. Beautiful cultural landscapes and plenty of swimming spots along Lake Follsjø.",
+        "de": "Eine gelungene Mischung aus spaßigen Trails, Schotter und Asphalt. Wunderschöne Kulturlandschaften und viele Bademöglichkeiten entlang des Follsjø."
+      },
+      "highlights": {
+        "no": [
+          "Morsom stisykling langs gamle Bolkesjøveg",
+          "Flotte gamle kulturlandskap og velholdte gårder",
+          "Mange fine bademuligheter i Follsjø",
+          "Nydelig utsikt over Follsjø"
+        ],
+        "en": [
+          "Fun trail riding along the old Bolkesjø Road",
+          "Beautiful historic cultural landscapes and well-kept farms",
+          "Plenty of good swimming spots at Lake Follsjø",
+          "Lovely views over Lake Follsjø"
+        ],
+        "de": [
+          "Spaßige Trails entlang der alten Bolkesjøveg",
+          "Schöne historische Kulturlandschaften und gepflegte Höfe",
+          "Viele gute Badestellen am Follsjø",
+          "Wunderschöne Aussicht über den Follsjø"
+        ]
+      },
+      "tips": {
+        "no": [
+          "Ta med mat og drikke, det er ikke handlemuligheter eller spisesteder underveis",
+          "Ta deg tid til bad og pause på svabergene ved Folljø"
+        ],
+        "en": [
+          "Bring food and drink – there are no shops or eateries along the route",
+          "Take your time for swims and breaks on the rock slabs by Follsjø"
+        ],
+        "de": [
+          "Essen und Trinken mitnehmen – unterwegs gibt es keine Geschäfte oder Restaurants",
+          "Nimm dir Zeit für Badestopps und Pausen auf den Felsen am Follsjø"
+        ]
+      }
+    },
+    "dusanfossrunden": {
+      "title": {
+        "no": "Dusanfossrunden",
+        "en": "Dusanfoss Loop",
+        "de": "Dusanfoss-Runde"
+      },
+      "description": {
+        "no": "Turens høydepunkt er Dusanfoss, en spektakulær foss godt gjemt i skogen. Det er også flott utsikt over Follsjø og Bolkesjø, fine grusveier og sti.",
+        "en": "The highlight is Dusanfoss, a spectacular waterfall hidden deep in the forest. Expect great views over Follsjø and Bolkesjø, plus a mix of good gravel roads and trail.",
+        "de": "Höhepunkt der Tour ist der Dusanfoss – ein spektakulärer Wasserfall, versteckt im Wald. Dazu kommen schöne Ausblicke über Follsjø und Bolkesjø sowie eine Mischung aus guten Schotterwegen und Pfaden."
+      },
+      "highlights": {
+        "no": [
+          "Dusanfoss – spektakulær foss inne i skogen",
+          "Flott utsikt over Follsjø og Bolkesjø",
+          "Partier med morsomme stier"
+        ],
+        "en": [
+          "Dusanfoss – a spectacular waterfall hidden in the forest",
+          "Great views over Follsjø and Bolkesjø",
+          "Sections of fun singletrack trails"
+        ],
+        "de": [
+          "Dusanfoss – spektakulärer Wasserfall, versteckt im Wald",
+          "Schöne Aussicht über Follsjø und Bolkesjø",
+          "Abschnitte mit spaßigen Trails"
+        ]
+      },
+      "tips": {
+        "no": [
+          "Ta med mat og drikke, det er få handlemuligheter underveis"
+        ],
+        "en": [
+          "Bring food and drink – there are few places to resupply along the way"
+        ],
+        "de": [
+          "Essen und Trinken mitnehmen – unterwegs gibt es nur wenige Einkaufsmöglichkeiten"
+        ]
+      }
+    },
+    "heimseterrunden": {
+      "title": {
+        "no": "Heimseterrunden",
+        "en": "Heimseter Loop",
+        "de": "Heimseter-Runde"
+      },
+      "description": {
+        "no": "Flott sykkeltur i vakkert fjellterreng med fin utsikt og flere gamle setre langs ruten.",
+        "en": "A great ride in beautiful mountain terrain, with fine views and several historic summer farms (seter) along the route.",
+        "de": "Eine schöne Radtour in herrlichem Gebirgsgelände mit weiter Aussicht und mehreren historischen Almen entlang der Strecke."
+      },
+      "highlights": {
+        "no": [
+          "Fjellterreng med utsikt",
+          "Gamle setrer langs ruten"
+        ],
+        "en": [
+          "Mountain terrain with great views",
+          "Old summer farms (seter) along the route"
+        ],
+        "de": [
+          "Gebirgsgelände mit schöner Aussicht",
+          "Alte Almen (Seter) entlang der Strecke"
+        ]
+      },
+      "tips": {
+        "no": [
+          "Ta med mat og drikke, det er ikke handlemuligheter underveis",
+          "Sjekk åpningstidene på Veggli fjellstue"
+        ],
+        "en": [
+          "Bring food and drink – there are no shops along the route",
+          "Check opening hours at Veggli Fjellstue"
+        ],
+        "de": [
+          "Essen und Trinken mitnehmen – unterwegs gibt es keine Einkaufsmöglichkeiten",
+          "Öffnungszeiten der Veggli Fjellstue prüfen"
+        ]
+      }
+    }
+  }
+}
