@@ -1,0 +1,40 @@
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sihoe/kartdata-public@main/apps/sykkelturer/sykkelturer-app.css">
+
+<div id="sykkelturer-app" class="sykkelturer-app">
+  <div class="filtersTop" aria-label="Filtrer sykkelturer">
+    <select id="filterBase" class="select" aria-label="Base"><option value="all" selected>Base</option></select>
+    <select id="filterType" class="select" aria-label="Ruteform"><option value="all" selected>Ruteform</option></select>
+    <select id="filterDiff" class="select" aria-label="Vanskelighetsgrad"><option value="all" selected>Vanskelighetsgrad</option></select>
+    <button id="btnReset" class="btn secondary" type="button">Nullstill</button>
+    <button id="btnCopy" class="btn" type="button">Kopier lenke</button>
+    <div class="countTop"><span id="routeCount">0</span> sykkelturer</div>
+  </div>
+
+  <div class="st-mapwrap" id="mapWrapper">
+    <div id="sykkelturer-map" class="st-map"></div>
+
+    <div class="st-side">
+      <div class="st-side-header"><h3>Ruter</h3></div>
+      <ul id="routeList" class="st-routelist"></ul>
+    </div>
+  </div>
+
+  <div id="statusLine" class="status">Laster sykkelturer…</div>
+  <div id="grid" class="grid"></div>
+</div>
+
+<script>
+  window.SYKKELTURER_APP_CONFIG = {
+    DATA_ROUTES_URL: "https://cdn.jsdelivr.net/gh/sihoe/kartdata-public@main/routes503.json",
+    DATA_EXTRAS_URL: "https://cdn.jsdelivr.net/gh/sihoe/kartdata-public@main/routes_extras_legacy_clean502.json",
+    DATA_TEXTS_URL:  "https://cdn.jsdelivr.net/gh/sihoe/kartdata-public@main/routes_texts_and_highlights502.json",
+    SYMBOLS_BASE:    "https://cdn.jsdelivr.net/gh/sihoe/symbols@main/",
+    OSM_TILES:       "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+    MAP_DIV_ID:      "sykkelturer-map"
+  };
+</script>
+
+<script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/gh/sihoe/kartdata-public@main/apps/sykkelturer/sykkelturer-app.js"></script>
