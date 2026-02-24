@@ -955,7 +955,7 @@
     "name": {
       "no": "Dusanfossrunden"
     },
-    "gpxUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/gpx/dusanfossrunden.gpx",
+    "gpxUrl": "https://cdn.jsdelivr.net/gh/sihoe/bolkesjorunden@main/dusanfossrunden.gpx",
     "elevationUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/elevation/dusanfossrunden_elevation_with_surface_legacy.json",
     "elevationSurfaceUrl": null,
     "stats": {
