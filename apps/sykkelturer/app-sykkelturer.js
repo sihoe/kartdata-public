@@ -1,14 +1,16 @@
-/* sykkelturer-app.js (Squarespace-robust) */
+/* sykkelturer-app.js (production) */
 (function () {
   "use strict";
 
-  // Finn riktig app-container (tåler at noen har limt inn flere blokker…)
-  const candidates = Array.from(document.querySelectorAll(".sykkelturer-app, #sykkelturer-app"));
-  if (!candidates.length) return;
-
+  // Finn synlig app-container (tåler at noen har duplikat-blokker)
+  const apps = Array.from(document.querySelectorAll("#sykkelturer-app, .sykkelturer-app"));
+  if (!apps.length) return;
   const isVisible = (el) => !!(el && (el.offsetWidth || el.offsetHeight || el.getClientRects().length));
-  const root = candidates.find(isVisible) || candidates[0];
+  const root = apps.find(isVisible) || apps[0];
   if (!root) return;
+
+  if (root.dataset.sykkelturerInit === "1") return;
+  root.dataset.sykkelturerInit = "1";
 
   const CFG =
     window.SYKKELTURER_APP_CONFIG && typeof window.SYKKELTURER_APP_CONFIG === "object"
@@ -31,7 +33,6 @@
     krevende: "#37394E",
   };
 
-  // Query kun innenfor root (så du ikke krasjer på duplikate id’er på siden)
   const qs = (sel) => root.querySelector(sel);
 
   const elBase = qs("#filterBase");
@@ -46,9 +47,23 @@
   const mapWrapper = qs("#mapWrapper");
 
   if (!elBase || !elType || !elDiff || !elReset || !elCopy || !elCount || !elStatus || !elGrid || !elList) {
-    console.error("[sykkelturer-app] Mangler DOM i shell. Sjekk at alle id-er finnes i samme blokk.");
+    console.error("[sykkelturer] Mangler DOM i HTML-shell.");
     return;
   }
+
+  function getMapDivId() {
+    const cfgId = String(CFG.MAP_DIV_ID || "").trim();
+    if (cfgId && qs("#" + CSS.escape(cfgId))) return cfgId;
+
+    const mapDiv = qs(".st-map");
+    if (mapDiv) {
+      if (!mapDiv.id) mapDiv.id = cfgId || "sykkelturer-map";
+      return mapDiv.id;
+    }
+    return cfgId || "sykkelturer-map";
+  }
+
+  const MAP_DIV_ID = getMapDivId();
 
   function waitFor(testFn, timeoutMs = 12000) {
     return new Promise((resolve, reject) => {
@@ -60,41 +75,6 @@
       })();
     });
   }
-
-  // Kart-div: bruk config hvis mulig, ellers finn .st-map i root
-  function resolveMapDiv() {
-    const cfgId = String(CFG.MAP_DIV_ID || "").trim();
-    if (cfgId) {
-      const hit = qs("#" + CSS.escape(cfgId));
-      if (hit) return hit;
-    }
-    const div = qs(".st-map");
-    return div || null;
-  }
-
-  const mapDiv = resolveMapDiv();
-  if (!mapDiv) {
-    console.error("[sykkelturer-app] Finner ikke kart-div (.st-map).");
-    return;
-  }
-  if (!mapDiv.id) mapDiv.id = (CFG.MAP_DIV_ID && String(CFG.MAP_DIV_ID).trim()) || "sykkelturer-map";
-
-  // State
-  let map = null;
-  let routeLayerGroup = null;
-  let midMarkerGroup = null;
-
-  const routeDrawnById = new Map();
-  const routeMidMarkerById = new Map();
-
-  let allRoutes = [];
-  let currentFiltered = [];
-  let activeRouteId = null;
-  let selectedOnlyRouteId = null;
-
-  let leafletReady = false;
-  let gpxReady = false;
-  let gpxWaitStarted = false;
 
   function getLang() {
     if (typeof Weglot !== "undefined" && Weglot.getCurrentLang) return Weglot.getCurrentLang();
@@ -280,10 +260,7 @@
 
       const bases = deriveBases(ex);
       const routeType = normalizeRouteType(ex.routeShape || ex.routeType || r.routeType || "");
-
       const stats = r.stats || {};
-      const distanceKm = Number(stats.distanceKm || 0);
-      const climbHm = Number(stats.climbM || 0);
 
       merged.push({
         id,
@@ -298,7 +275,7 @@
         image,
         link,
         sortOrder: Number(ex.sortOrder ?? r.sortOrder ?? 9999),
-        _stats: { distanceKm, climbM: climbHm },
+        _stats: { distanceKm: Number(stats.distanceKm || 0), climbM: Number(stats.climbM || 0) },
         _extras: ex,
         _text: tx,
       });
@@ -308,7 +285,227 @@
     return merged;
   }
 
-  // ====== UI ======
+  // ===== Map + layers
+  let map = null;
+  let routeLayerGroup = null;
+  let midMarkerGroup = null;
+
+  const routeDrawnById = new Map();
+  const routeMidMarkerById = new Map();
+
+  let allRoutes = [];
+  let currentFiltered = [];
+  let activeRouteId = null;
+  let selectedOnlyRouteId = null;
+
+  let renderSeq = 0;
+
+  async function ensureLeaflet() {
+    await waitFor(() => window.L && typeof window.L.map === "function");
+  }
+
+  async function ensureGpx() {
+    await waitFor(() => window.L && !!window.L.GPX);
+  }
+
+  function addFullscreenControl() {
+    if (!window.L || !map) return;
+
+    const L = window.L;
+    const Fs = L.Control.extend({
+      options: { position: "topright" },
+      onAdd: function () {
+        const btn = L.DomUtil.create("button", "");
+        btn.type = "button";
+        btn.textContent = "Fullskjerm";
+        btn.style.background = "#fff";
+        btn.style.border = "1px solid rgba(66,36,38,0.25)";
+        btn.style.borderRadius = "12px";
+        btn.style.padding = "8px 10px";
+        btn.style.cursor = "pointer";
+        btn.style.font = "inherit";
+        btn.style.color = "#422426";
+        btn.style.boxShadow = "0 6px 16px rgba(0,0,0,0.10)";
+        L.DomEvent.disableClickPropagation(btn);
+        L.DomEvent.on(btn, "click", () => toggleFullscreen());
+        return btn;
+      },
+    });
+
+    map.addControl(new Fs());
+
+    document.addEventListener("fullscreenchange", () => {
+      setTimeout(() => {
+        try { map.invalidateSize(); } catch (e) {}
+      }, 120);
+    });
+  }
+
+  function toggleFullscreen() {
+    if (!mapWrapper) return;
+    const elem = mapWrapper;
+    if (!document.fullscreenElement) {
+      elem.requestFullscreen?.();
+      elem.webkitRequestFullscreen?.();
+    } else {
+      document.exitFullscreen?.();
+      document.webkitExitFullscreen?.();
+    }
+  }
+
+  function initMap() {
+    if (map) return;
+
+    const L = window.L;
+    map = L.map(MAP_DIV_ID, {
+      center: [60.1, 9.1],
+      zoom: 8,
+      scrollWheelZoom: true,
+      preferCanvas: true,
+    });
+
+    L.tileLayer(OSM_TILES, { attribution: "© OpenStreetMap" }).addTo(map);
+
+    routeLayerGroup = L.featureGroup().addTo(map);
+    midMarkerGroup = L.layerGroup().addTo(map);
+
+    addFullscreenControl();
+
+    map.on("moveend zoomend", () => updateVisibleList());
+    map.on("click", () => clearSelectedOnly());
+
+    setTimeout(() => { try { map.invalidateSize(); } catch (e) {} }, 150);
+    setTimeout(() => { try { map.invalidateSize(); } catch (e) {} }, 800);
+  }
+
+  function clearMapRoutes() {
+    if (!routeLayerGroup || !midMarkerGroup) return;
+    routeLayerGroup.clearLayers();
+    midMarkerGroup.clearLayers();
+    routeDrawnById.clear();
+    routeMidMarkerById.clear();
+    activeRouteId = null;
+  }
+
+  function fitToVisible() {
+    if (!map || !routeLayerGroup) return;
+    try {
+      const b = routeLayerGroup.getBounds();
+      if (b && b.isValid && b.isValid()) map.fitBounds(b.pad(0.10));
+    } catch (e) {}
+  }
+
+  function loadRouteToMap(route, seq) {
+    return new Promise((resolve) => {
+      if (seq !== renderSeq) return resolve(false);
+      if (!window.L || !window.L.GPX) return resolve(false);
+      if (!route.gpx) return resolve(false);
+
+      const L = window.L;
+
+      const gpx = new L.GPX(route.gpx, {
+        async: true,
+
+        // hard kill av alt av markers/waypoints fra gpx-plugin
+        markers: { startIcon: null, endIcon: null },
+        marker_options: { startIconUrl: null, endIconUrl: null },
+        createMarker: () => null,
+        createStartMarker: () => null,
+        createEndMarker: () => null,
+        createWaypoint: () => null,
+        skipWaypoints: true,
+
+        polyline_options: {
+          color: routeColorByDifficulty(route.difficulty),
+          weight: 5,
+          opacity: 1,
+          lineCap: "round",
+          lineJoin: "round",
+        },
+      });
+
+      gpx.on("loaded", (e) => {
+        if (seq !== renderSeq) return resolve(false);
+
+        const layer = e.target;
+
+        // fjern alt som ikke er polyline (for å være 100% sikker på null markers)
+        if (typeof layer.eachLayer === "function") {
+          layer.eachLayer((child) => {
+            if (!(child instanceof L.Polyline)) {
+              try { layer.removeLayer(child); } catch (_) {}
+            }
+          });
+        }
+
+        routeLayerGroup.addLayer(layer);
+
+        // finn polyline
+        let poly = null;
+        const layers = (layer.getLayers && layer.getLayers()) ? layer.getLayers() : [];
+        for (const l of layers) {
+          if (l && l.getLatLngs && typeof l.getLatLngs === "function") {
+            let ll = l.getLatLngs();
+            if (Array.isArray(ll?.[0])) ll = ll.flat();
+            if (Array.isArray(ll) && ll.length > 2) { poly = l; break; }
+          }
+        }
+
+        if (!poly) return resolve(false);
+
+        routeDrawnById.set(route.id, poly);
+
+        // mid-marker
+        let latlngs = poly.getLatLngs();
+        if (Array.isArray(latlngs?.[0])) latlngs = latlngs.flat();
+        const mid = latlngs[Math.floor(latlngs.length / 2)] || layer.getBounds().getCenter();
+
+        const icon = L.icon({
+          iconUrl: difficultyIconUrl(route.difficulty),
+          iconSize: [32, 32],
+          iconAnchor: [16, 32],
+        });
+
+        const mm = L.marker(mid, { icon }).addTo(midMarkerGroup);
+        routeMidMarkerById.set(route.id, mm);
+
+        mm.on("click", (ev) => { ev?.originalEvent?.stopPropagation?.(); selectRoute(route.id); });
+        poly.on("click", (ev) => { ev?.originalEvent?.stopPropagation?.(); selectRoute(route.id); });
+
+        poly.on("mouseover", () => { if (route.id !== activeRouteId) poly.setStyle({ weight: 8 }); });
+        poly.on("mouseout",  () => { if (route.id !== activeRouteId) poly.setStyle({ weight: 5 }); });
+
+        resolve(true);
+      });
+
+      gpx.on("error", () => resolve(false));
+    });
+  }
+
+  async function renderMap(routes) {
+    if (!map) return;
+
+    // GPX-plugin kan komme “etterpå” pga Squarespace; vi venter litt, men uten å drepe UI hvis den mangler.
+    try {
+      await ensureGpx();
+    } catch (e) {
+      return;
+    }
+
+    const seq = ++renderSeq;
+
+    clearMapRoutes();
+    for (const r of routes) {
+      // eslint-disable-next-line no-await-in-loop
+      await loadRouteToMap(r, seq);
+    }
+    if (seq !== renderSeq) return;
+
+    fitToVisible();
+    updateVisibleList();
+  }
+
+  // ===== UI (filters/list/grid)
   function buildFilters() {
     const lang = getLang();
     const q = readQuery();
@@ -355,15 +552,34 @@
 
       li.addEventListener("click", () => selectRoute(r.id));
       li.addEventListener("mouseover", () => highlightRoute(r.id, true));
-      li.addEventListener("mouseout", () => highlightRoute(r.id, false));
+      li.addEventListener("mouseout",  () => highlightRoute(r.id, false));
 
       li.classList.toggle("active", r.id === activeRouteId);
       elList.appendChild(li);
     });
   }
 
-  function renderCards(routes) {
-    elGrid.innerHTML = routes.map(cardHtml).join("");
+  function updateVisibleList() {
+    if (!map) { renderList(currentFiltered); return; }
+    const mapBounds = map.getBounds();
+
+    const visible = currentFiltered.filter((r) => {
+      const poly = routeDrawnById.get(r.id);
+      if (!poly || !poly.getBounds) return true;
+      const b = poly.getBounds();
+      if (!b) return true;
+      return mapBounds.intersects(b);
+    });
+
+    renderList(visible);
+  }
+
+  function highlightRoute(routeId, on) {
+    const poly = routeDrawnById.get(routeId);
+    if (!poly) return;
+    if (routeId === activeRouteId) return;
+    poly.setStyle({ weight: on ? 8 : 5 });
+    if (on && poly.bringToFront) poly.bringToFront();
   }
 
   function setSelectedOnly(routeId) {
@@ -391,6 +607,27 @@
     elStatus.textContent = `${listForGrid.length} sykkelturer`;
   }
 
+  function selectRoute(routeId) {
+    const route = allRoutes.find((r) => r.id === routeId);
+    if (!route) return;
+
+    activeRouteId = routeId;
+
+    for (const [id, poly] of routeDrawnById.entries()) {
+      if (!poly) continue;
+      poly.setStyle({ weight: id === routeId ? 8 : 5 });
+    }
+
+    updateVisibleList();
+
+    const poly = routeDrawnById.get(routeId);
+    if (map && poly && poly.getBounds) {
+      try { map.fitBounds(poly.getBounds(), { padding: [80, 80] }); } catch (e) {}
+    }
+
+    setSelectedOnly(routeId);
+  }
+
   function cardHtml(r) {
     const { title, desc } = getRouteText(r);
 
@@ -416,229 +653,53 @@
     return `
       <article class="card">
         <div class="img" style="background-image:url('${img}')"></div>
+
         <div class="body">
           <div>
             <div class="titleRow">
               <h3>${safeTitle}</h3>
               <img class="diffIcon" alt="" src="${difficultyIconUrl(r.difficulty)}">
             </div>
+
             <div class="statsRow" aria-label="Nøkkeltall">
               <span class="stat">${iconDistance()} ${fmtNum(stats.distanceKm)} km</span>
               <span class="stat">${iconClimb()} ${fmtNum(stats.climbM)} hm</span>
               ${durText ? `<span class="stat">${iconClock()} ${durText}</span>` : ``}
             </div>
           </div>
+
           ${descHtml}
+
           <div class="spacer"></div>
+
           <div>
             <div class="surfacebar" title="Underlag: asfalt / grus / sti">
               <div class="seg asphalt" style="width:${aPct}%"></div>
               <div class="seg gravel"  style="width:${gPct}%"></div>
               <div class="seg trail"   style="width:${tPct}%"></div>
             </div>
+
             <div class="surfaceLegend" aria-label="Underlag med prosent">
               <span><i class="dot asphalt"></i>Asfalt ${aPct}%</span>
               <span><i class="dot gravel"></i>Grus ${gPct}%</span>
               <span><i class="dot trail"></i>Sti ${tPct}%</span>
             </div>
+
             ${symbolsHtml ? `<div class="symbols" aria-label="Tilbud underveis">${symbolsHtml}</div>` : ``}
-            ${url && url !== "#" ? `<div class="actionsRow"><a href="${url}" target="_blank" rel="noopener noreferrer">Les mer</a></div>` : ``}
+
+            ${url && url !== "#"
+              ? `<div class="actionsRow"><a href="${url}" target="_blank" rel="noopener noreferrer">Les mer</a></div>`
+              : ``}
           </div>
         </div>
       </article>
     `;
   }
 
-  function highlightRoute(routeId, on) {
-    const poly = routeDrawnById.get(routeId);
-    if (!poly) return;
-    if (routeId === activeRouteId) return;
-    poly.setStyle({ weight: on ? 8 : 5 });
-    if (on && poly.bringToFront) poly.bringToFront();
+  function renderCards(routes) {
+    elGrid.innerHTML = routes.map(cardHtml).join("");
   }
 
-  function selectRoute(routeId) {
-    const route = allRoutes.find((r) => r.id === routeId);
-    if (!route) return;
-
-    activeRouteId = routeId;
-
-    for (const [id, poly] of routeDrawnById.entries()) {
-      if (!poly) continue;
-      poly.setStyle({ weight: id === routeId ? 8 : 5 });
-    }
-
-    if (map) {
-      const poly = routeDrawnById.get(routeId);
-      if (poly && poly.getBounds) map.fitBounds(poly.getBounds(), { padding: [80, 80] });
-    }
-
-    setSelectedOnly(routeId);
-  }
-
-  // ====== MAP ======
-  function initLeafletMap() {
-    if (map) return true;
-    if (!window.L || typeof window.L.map !== "function") return false;
-
-    const L = window.L;
-
-    map = L.map(mapDiv.id, {
-      center: [60.1, 9.1],
-      zoom: 8,
-      scrollWheelZoom: true,
-      preferCanvas: true,
-    });
-
-    L.tileLayer(OSM_TILES, { attribution: "© OpenStreetMap" }).addTo(map);
-
-    routeLayerGroup = L.featureGroup().addTo(map);
-    midMarkerGroup = L.layerGroup().addTo(map);
-
-    // Klikk på “tomt kart” = fjern valgt rute i grid
-    map.on("click", () => clearSelectedOnly());
-
-    // Squarespace trenger ofte invalidateSize
-    setTimeout(() => { try { map.invalidateSize(); } catch (e) {} }, 150);
-    setTimeout(() => { try { map.invalidateSize(); } catch (e) {} }, 700);
-
-    return true;
-  }
-
-  async function ensureLeaflet() {
-    if (leafletReady) return true;
-    await waitFor(() => window.L && typeof window.L.map === "function");
-    leafletReady = initLeafletMap();
-    return leafletReady;
-  }
-
-  async function ensureGpx() {
-    if (gpxReady) return true;
-    if (gpxWaitStarted) return false;
-    gpxWaitStarted = true;
-
-    try {
-      await waitFor(() => window.L && !!window.L.GPX, 12000);
-      gpxReady = true;
-      return true;
-    } catch (e) {
-      console.warn("[sykkelturer-app] L.GPX ble ikke klar. Kart vises, men ruter tegnes ikke.");
-      return false;
-    }
-  }
-
-  function clearMapRoutes() {
-    if (!routeLayerGroup || !midMarkerGroup) return;
-    routeLayerGroup.clearLayers();
-    midMarkerGroup.clearLayers();
-    routeDrawnById.clear();
-    routeMidMarkerById.clear();
-    activeRouteId = null;
-  }
-
-  function fitToVisible() {
-    if (!map || !routeLayerGroup) return;
-    try {
-      const b = routeLayerGroup.getBounds();
-      if (b && b.isValid()) map.fitBounds(b.pad(0.10));
-    } catch (e) {}
-  }
-
-  function loadRouteToMap(route) {
-    return new Promise((resolve) => {
-      if (!map || !gpxReady || !window.L || !window.L.GPX) return resolve(false);
-      if (!route.gpx) return resolve(false);
-
-      const L = window.L;
-
-      const gpx = new L.GPX(route.gpx, {
-        async: true,
-        markers: { startIcon: null, endIcon: null },
-        marker_options: { startIconUrl: null, endIconUrl: null },
-        createMarker: () => null,
-        createStartMarker: () => null,
-        createEndMarker: () => null,
-        createWaypoint: () => null,
-        skipWaypoints: true,
-        polyline_options: {
-          color: routeColorByDifficulty(route.difficulty),
-          weight: 5,
-          opacity: 1,
-          lineCap: "round",
-          lineJoin: "round",
-        },
-      });
-
-      gpx.on("loaded", (e) => {
-        const layer = e.target;
-
-        if (typeof layer.eachLayer === "function") {
-          layer.eachLayer((child) => {
-            if (!(child instanceof L.Polyline)) {
-              try { layer.removeLayer(child); } catch (_) {}
-            }
-          });
-        }
-
-        routeLayerGroup.addLayer(layer);
-
-        let poly = null;
-        const layers = layer.getLayers && layer.getLayers() ? layer.getLayers() : [];
-        for (const l of layers) {
-          if (l && l.getLatLngs && typeof l.getLatLngs === "function") {
-            const ll = l.getLatLngs();
-            const flat = Array.isArray(ll && ll[0]) ? ll.flat() : ll;
-            if (Array.isArray(flat) && flat.length > 2) { poly = l; break; }
-          }
-        }
-        if (!poly) return resolve(false);
-
-        routeDrawnById.set(route.id, poly);
-
-        let latlngs = poly.getLatLngs();
-        if (Array.isArray(latlngs[0])) latlngs = latlngs.flat();
-        const mid = latlngs[Math.floor(latlngs.length / 2)] || layer.getBounds().getCenter();
-
-        const icon = L.icon({
-          iconUrl: difficultyIconUrl(route.difficulty),
-          iconSize: [32, 32],
-          iconAnchor: [16, 32],
-        });
-
-        const mm = L.marker(mid, { icon }).addTo(midMarkerGroup);
-        routeMidMarkerById.set(route.id, mm);
-
-        mm.on("click", (ev) => { ev?.originalEvent?.stopPropagation?.(); selectRoute(route.id); });
-        poly.on("click", (ev) => { ev?.originalEvent?.stopPropagation?.(); selectRoute(route.id); });
-
-        poly.on("mouseover", () => { if (route.id !== activeRouteId) poly.setStyle({ weight: 8 }); });
-        poly.on("mouseout",  () => { if (route.id !== activeRouteId) poly.setStyle({ weight: 5 }); });
-
-        resolve(true);
-      });
-
-      gpx.on("error", () => resolve(false));
-    });
-  }
-
-  async function renderMap(routes) {
-    await ensureLeaflet();
-    const okGpx = await ensureGpx();
-
-    if (!map) return;           // Leaflet init feilet
-    if (!okGpx) return;         // GPX ikke klar: vis base-kart, men ikke ruter
-
-    clearMapRoutes();
-
-    for (const r of routes) {
-      // eslint-disable-next-line no-await-in-loop
-      await loadRouteToMap(r);
-    }
-
-    fitToVisible();
-  }
-
-  // ====== FILTER ======
   function applyFilters() {
     const f = getActiveFilters();
     writeQuery(f);
@@ -657,16 +718,16 @@
     }
 
     renderGridAccordingToSelection();
-    renderList(currentFiltered);
-
-    // Kart: prøv å vise base-kart ASAP, ruter når GPX er klar
-    renderMap(currentFiltered).catch((e) => console.error(e));
+    updateVisibleList();
+    renderMap(filtered);
   }
 
-  // ====== BOOT ======
   async function boot() {
     try {
       elStatus.textContent = "Laster sykkelturer…";
+
+      await ensureLeaflet();
+      initMap();
 
       const [r, ex, tx] = await Promise.all([
         fetchJson(DATA_ROUTES_URL),
@@ -678,12 +739,11 @@
       buildFilters();
       applyFilters();
     } catch (err) {
-      console.error("[sykkelturer-app] boot failed:", err);
+      console.error(err);
       elStatus.textContent = "Feil ved lasting (se Console).";
     }
   }
 
-  // Events
   elBase.addEventListener("change", applyFilters);
   elType.addEventListener("change", applyFilters);
   elDiff.addEventListener("change", applyFilters);
