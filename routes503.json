@@ -896,60 +896,60 @@
     ],
     "difficulty": "enkel"
   },
-"follsjorundt": {
-  "id": "follsjorundt",
-  "name": {
-    "no": "Follsjø rundt"
-  },
-  "gpxUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/gpx/follsjorundt.gpx",
-  "elevationUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/elevation/follsjorundt_elevation_with_surface_legacy.json",
-  "elevationSurfaceUrl": null,
-  "stats": {
-    "distanceKm": 33.2,
-    "climbM": 223,
-    "descentM": 223,
-    "maxElevationM": 403,
-    "minElevationM": 126,
-    "biggestClimb": {
-      "gainM": 177,
-      "lengthKm": 4.42,
-      "fromKm": 0.1,
-      "toKm": 4.52,
-      "avgGradePct": 4.0
-    }
-  },
-  "surface": {
-    "totalKm": 33.2,
-    "categoryKm": {
-      "asphalt": 13.0,
-      "gravel": 15.9,
-      "trail": 4.3,
-      "unknown": 0.0
+  "follsjorundt": {
+    "id": "follsjorundt",
+    "name": {
+      "no": "Follsjø rundt"
     },
-    "osmSurfaceKm": {
-      "asphalt": 0.299,
-      "gravel": 0.063,
-      "trail": 0.091,
-      "unknown": 0.0
+    "gpxUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/gpx/follsjorundt.gpx",
+    "elevationUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/elevation/follsjorundt_elevation_with_surface_legacy.json",
+    "elevationSurfaceUrl": null,
+    "stats": {
+      "distanceKm": 33.2,
+      "climbM": 223,
+      "descentM": 223,
+      "maxElevationM": 403,
+      "minElevationM": 126,
+      "biggestClimb": {
+        "gainM": 177,
+        "lengthKm": 4.42,
+        "fromKm": 0.1,
+        "toKm": 4.52,
+        "avgGradePct": 4.0
+      }
     },
-    "maxMatchDistanceM": null
+    "surface": {
+      "totalKm": 33.2,
+      "categoryKm": {
+        "asphalt": 13.0,
+        "gravel": 15.9,
+        "trail": 4.3,
+        "unknown": 0.0
+      },
+      "osmSurfaceKm": {
+        "asphalt": 0.299,
+        "gravel": 0.063,
+        "trail": 0.091,
+        "unknown": 0.0
+      },
+      "maxMatchDistanceM": null
+    },
+    "surfaceSource": "follsjorundt/follsjorundt_elevation_with_surface_legacy.json",
+    "sortOrder": null,
+    "color": "#333333",
+    "description": "",
+    "imageUrl": "",
+    "pageUrl": "https://www.svingom.no/sykkeltur/bolkesjo/follsjorundt",
+    "symbols": [
+      "attractions",
+      "bathingspot",
+      "eat",
+      "fishing",
+      "cabin",
+      "hiking"
+    ],
+    "difficulty": "middels"
   },
-  "surfaceSource": "follsjorundt/follsjorundt_elevation_with_surface_legacy.json",
-  "sortOrder": null,
-  "color": "#333333",
-  "description": "",
-  "imageUrl": "",
-  "pageUrl": "https://www.svingom.no/sykkeltur/bolkesjo/follsjorundt",
-  "symbols": [
-    "attractions",
-    "bathingspot",
-    "eat",
-    "fishing",
-    "cabin",
-    "hiking"
-  ],
-  "difficulty": "middels"
-},
   "dusanfossrunden": {
     "id": "dusanfossrunden",
     "name": {
@@ -1004,51 +1004,51 @@
     ],
     "difficulty": "enkel"
   },
-"heimseterrunden": {
-  "id": "heimseterrunden",
-  "name": {
-    "no": "Heimseterrunden"
-  },
-  "gpxUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/gpx/heimseterrunden.gpx",
-  "elevationUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/elevation/heimseterrunden_elevation_with_surface_legacy.json",
-  "elevationSurfaceUrl": null,
-  "stats": {
-    "distanceKm": 16.2,
-    "climbM": 407,
-    "descentM": 407,
-    "maxElevationM": 872,
-    "minElevationM": 618,
-    "biggestClimb": {
-      "gainM": 248,
-      "lengthKm": 5.24,
-      "fromKm": 10.92,
-      "toKm": 16.16,
-      "avgGradePct": 4.7
-    }
-  },
-  "surface": {
-    "totalKm": 16.2,
-    "categoryKm": {
-      "asphalt": 0.0,
-      "gravel": 14.3,
-      "trail": 1.9,
-      "unknown": 0.0
+  "heimseterrunden": {
+    "id": "heimseterrunden",
+    "name": {
+      "no": "Heimseterrunden"
     },
-    "osmSurfaceKm": {
-      "asphalt": 0.0,
-      "gravel": 14.281,
-      "trail": 1.912,
-      "unknown": 0.0
+    "gpxUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/gpx/heimseterrunden.gpx",
+    "elevationUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/elevation/heimseterrunden_elevation_with_surface_legacy.json",
+    "elevationSurfaceUrl": null,
+    "stats": {
+      "distanceKm": 16.2,
+      "climbM": 407,
+      "descentM": 407,
+      "maxElevationM": 872,
+      "minElevationM": 618,
+      "biggestClimb": {
+        "gainM": 248,
+        "lengthKm": 5.24,
+        "fromKm": 10.92,
+        "toKm": 16.16,
+        "avgGradePct": 4.7
+      }
     },
-    "maxMatchDistanceM": 13.7
+    "surface": {
+      "totalKm": 16.2,
+      "categoryKm": {
+        "asphalt": 0.0,
+        "gravel": 14.3,
+        "trail": 1.9,
+        "unknown": 0.0
+      },
+      "osmSurfaceKm": {
+        "asphalt": 0.0,
+        "gravel": 14.281,
+        "trail": 1.912,
+        "unknown": 0.0
+      },
+      "maxMatchDistanceM": 13.7
+    },
+    "surfaceSource": "heimseterrunden/heimseterrunden_elevation_with_surface_legacy.json",
+    "pageUrl": "https://www.svingom.no/sykkeltur-heimseterrunden-vegglifjell",
+    "symbols": [
+      "hiking"
+    ],
+    "difficulty": "middels"
   },
-  "surfaceSource": "heimseterrunden/heimseterrunden_elevation_with_surface_legacy.json",
-  "pageUrl": "https://www.svingom.no/sykkeltur-heimseterrunden-vegglifjell",
-  "symbols": [
-    "hiking"
-  ],
-  "difficulty": "middels"
-},
   "ostskauen-rundt": {
     "id": "ostskauen-rundt",
     "name": {
@@ -1104,5 +1104,45 @@
       "secureparking"
     ],
     "difficulty": "middels"
+  },
+  "trillemarkarundt-lang": {
+    "id": "trillemarkarundt-lang",
+    "name": {
+      "no": "Trillemarkarundt lang"
+    },
+    "gpxUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/gpx/trillemarkarundt-lang.gpx",
+    "elevationUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/elevation/trillemarkarundt-lang_elevation_with_surface_legacy.json",
+    "elevationSurfaceUrl": null,
+    "stats": {
+      "distanceKm": 133.7,
+      "climbM": 2889,
+      "descentM": 2889,
+      "maxElevationM": 970,
+      "minElevationM": 103,
+      "biggestClimb": {
+        "gainM": 722,
+        "lengthKm": 47.68,
+        "fromKm": 83.12,
+        "toKm": 130.8,
+        "avgGradePct": 1.5
+      }
+    },
+    "surface": {
+      "totalKm": 133.7,
+      "categoryKm": {
+        "asphalt": 97.2,
+        "gravel": 36.5,
+        "trail": 0.0,
+        "unknown": 0.0
+      },
+      "osmSurfaceKm": {
+        "asphalt": 0.0,
+        "gravel": 0.0,
+        "trail": 0.0,
+        "unknown": 0.0
+      },
+      "maxMatchDistanceM": 14.5
+    },
+    "surfaceSource": "trillemarkarundt-lang/trillemarkarundt-lang_elevation_with_surface_legacy.json"
   }
 }
