@@ -1,0 +1,1108 @@
+{
+  "smadoldalen-rundt": {
+    "id": "smadoldalen-rundt",
+    "name": {
+      "no": "Smådøldalen rundt"
+    },
+    "gpxUrl": "https://cdn.jsdelivr.net/gh/sihoe/smaadoldalenrundt@latest/smaadoldalenrundt.gpx",
+    "elevationUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/elevation/smaadoldalenrundt_elevation_with_surface_legacy.json",
+    "elevationSurfaceUrl": null,
+    "stats": {
+      "distanceKm": 72.3,
+      "climbM": 890,
+      "descentM": 890,
+      "maxElevationM": 1107,
+      "minElevationM": 466,
+      "biggestClimb": {
+        "gainM": 636,
+        "lengthKm": 24.75,
+        "fromKm": 0.13,
+        "toKm": 24.88,
+        "avgGradePct": 2.6
+      }
+    },
+    "surface": {
+      "totalKm": 72.3,
+      "categoryKm": {
+        "asphalt": 24.1,
+        "gravel": 47.7,
+        "trail": 0.5,
+        "unknown": 0.0
+      },
+      "osmSurfaceKm": {
+        "asphalt": 0.027,
+        "gravel": 0.117,
+        "trail": 0.0,
+        "unknown": 0.0
+      },
+      "maxMatchDistanceM": 16.6
+    },
+    "surfaceSource": "smadoldalen-rundt/smaadoldalenrundt_elevation_with_surface_legacy.json",
+    "sortOrder": 2,
+    "color": "#D38262",
+    "description": "En variert og morsom sykkeltur fra Dagalifjell, gjennom Smådøl og Uvdal, med åpne vidder, idylliske seterdaler og storslåtte fjell.",
+    "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/smaadolrunden.jpg",
+    "pageUrl": "https://www.svingom.no/sykkeltur-smadoldalen-rundt",
+    "symbols": [
+      "bathingspot",
+      "attractions",
+      "handlevogn",
+      "kaffekopp",
+      "tent",
+      "bikecharge",
+      "secureparking"
+    ],
+    "difficulty": "middels"
+  },
+  "fjellruta-over-vegglifjell": {
+    "id": "fjellruta-over-vegglifjell",
+    "name": {
+      "no": "Fjellruta over Vegglifjell"
+    },
+    "gpxUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingom-fjellruta@latest/fjellruta.gpx",
+    "elevationUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/elevation/fjellruta_elevation_with_surface_legacy.json",
+    "elevationSurfaceUrl": null,
+    "stats": {
+      "distanceKm": 124.6,
+      "climbM": 1365,
+      "descentM": 1365,
+      "maxElevationM": 1171,
+      "minElevationM": 217,
+      "biggestClimb": {
+        "gainM": 862,
+        "lengthKm": 21.82,
+        "fromKm": 55.15,
+        "toKm": 76.97,
+        "avgGradePct": 4.0
+      }
+    },
+    "surface": {
+      "totalKm": 124.6,
+      "categoryKm": {
+        "asphalt": 85.8,
+        "gravel": 38.7,
+        "trail": 0.0,
+        "unknown": 0.0
+      },
+      "osmSurfaceKm": {
+        "asphalt": 0.0,
+        "gravel": 0.0,
+        "trail": 0.0,
+        "unknown": 0.0
+      },
+      "maxMatchDistanceM": null
+    },
+    "surfaceSource": "fjellruta-over-vegglifjell/fjellruta_elevation_with_surface_legacy.json",
+    "sortOrder": 6,
+    "color": "#37394E",
+    "description": "Perfekt for sykkelferie med to fjelloverganger, nydelige kulturlandskap og flotte opplevelser langs hele ruten både i Numedal og Tinn.",
+    "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/fjellruta.jpg",
+    "pageUrl": "https://www.svingom.no/sykkeltur/fjellruta",
+    "symbols": [
+      "bathingspot",
+      "attractions",
+      "handlevogn",
+      "kaffekopp",
+      "eat",
+      "fishing",
+      "gaardsdyr",
+      "tent",
+      "hiking",
+      "kayak",
+      "hotel",
+      "bikecharge",
+      "secureparking"
+    ],
+    "difficulty": "krevende"
+  },
+  "blefjell-juvefossen": {
+    "id": "blefjell-juvefossen",
+    "name": {
+      "no": "Blefjell – Juvefossen"
+    },
+    "gpxUrl": "https://cdn.jsdelivr.net/gh/sihoe/blefjell-juvefossen@latest/blefjell_juvefossen.gpx",
+    "elevationUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/elevation/blefjell_juvefossen_elevation_with_surface_legacy.json",
+    "elevationSurfaceUrl": null,
+    "stats": {
+      "distanceKm": 46.6,
+      "climbM": 929,
+      "descentM": 929,
+      "maxElevationM": 681,
+      "minElevationM": 480,
+      "biggestClimb": {
+        "gainM": 201,
+        "lengthKm": 23.56,
+        "fromKm": 22.66,
+        "toKm": 46.22,
+        "avgGradePct": 0.9
+      }
+    },
+    "surface": {
+      "totalKm": 46.6,
+      "categoryKm": {
+        "asphalt": 0.0,
+        "gravel": 42.7,
+        "trail": 4.0,
+        "unknown": 0.0
+      },
+      "osmSurfaceKm": {
+        "asphalt": 0.0,
+        "gravel": 0.0,
+        "trail": 0.0,
+        "unknown": 0.0
+      },
+      "maxMatchDistanceM": 8.1
+    },
+    "surfaceSource": "blefjell-juvefossen/blefjell_juvefossen_elevation_with_surface_legacy.json",
+    "sortOrder": 16,
+    "color": "#4484A2",
+    "description": "En flott tur fra Blefjell Lodge til den spektakulære Juvefossen, med 50 meter fritt fall, varme svaberg og naturlige badebassenger.",
+    "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/blefjelljuvefossen.jpg",
+    "pageUrl": "https://www.svingom.no/sykkeltur/blefjell/blefjell-lodge-juvefossen",
+    "symbols": [
+      "bathingspot",
+      "attractions",
+      "handlevogn",
+      "kaffekopp",
+      "eat",
+      "fishing",
+      "hiking",
+      "hotel",
+      "bikecharge",
+      "secureparking"
+    ],
+    "difficulty": "enkel"
+  },
+  "trillemarka-rundt": {
+    "id": "trillemarka-rundt",
+    "name": {
+      "no": "Trillemarka rundt"
+    },
+    "gpxUrl": "https://cdn.jsdelivr.net/gh/sihoe/trillemarkarundt@latest/Trillemarkarundt.gpx",
+    "elevationUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/elevation/trillemarka-rundt_elevation_with_surface_legacy.json",
+    "elevationSurfaceUrl": null,
+    "stats": {
+      "distanceKm": 76.4,
+      "climbM": 1743,
+      "descentM": 1743,
+      "maxElevationM": 896,
+      "minElevationM": 142,
+      "biggestClimb": {
+        "gainM": 667,
+        "lengthKm": 23.77,
+        "fromKm": 0.31,
+        "toKm": 24.08,
+        "avgGradePct": 2.8
+      }
+    },
+    "surface": {
+      "totalKm": 76.4,
+      "categoryKm": {
+        "asphalt": 27.5,
+        "gravel": 42.0,
+        "trail": 6.9,
+        "unknown": 0.0
+      },
+      "osmSurfaceKm": {
+        "asphalt": 0.0,
+        "gravel": 0.0,
+        "trail": 0.0,
+        "unknown": 0.0
+      },
+      "maxMatchDistanceM": null
+    },
+    "surfaceSource": "trillemarka-rundt/trillemarka-rundt_elevation_with_surface_legacy.json",
+    "sortOrder": 10,
+    "color": "#37394E",
+    "description": "En fantastisk og krevende tur rundt et av Norges største naturreservat, Trillemarka Rollagsfjell, med flott gammel skog, kulturminner og badevann, og kanskje en svipptur til Madonnaen.",
+    "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/trillemarkarundt.jpg",
+    "pageUrl": "https://www.svingom.no/sykkeltur/trillemarka-rundt",
+    "symbols": [
+      "bathingspot",
+      "attractions",
+      "handlevogn",
+      "kaffekopp",
+      "eat",
+      "hotel",
+      "bikecharge",
+      "secureparking"
+    ],
+    "difficulty": "krevende"
+  },
+  "kunst-og-koboltrunden": {
+    "id": "kunst-og-koboltrunden",
+    "name": {
+      "no": "Kunst- og koboltrunden"
+    },
+    "gpxUrl": "https://cdn.jsdelivr.net/gh/sihoe/kunst-koboltrunden@latest/Kunst-koboltrunden.gpx",
+    "elevationUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/elevation/kunstkobolt_elevation_with_surface_legacy.json",
+    "elevationSurfaceUrl": null,
+    "stats": {
+      "distanceKm": 120.4,
+      "climbM": 2114,
+      "descentM": 2114,
+      "maxElevationM": 548,
+      "minElevationM": 42,
+      "biggestClimb": {
+        "gainM": 396,
+        "lengthKm": 73.28,
+        "fromKm": 33.31,
+        "toKm": 106.58,
+        "avgGradePct": 0.5
+      }
+    },
+    "surface": {
+      "totalKm": 120.4,
+      "categoryKm": {
+        "asphalt": 75.9,
+        "gravel": 44.5,
+        "trail": 0.0,
+        "unknown": 0.0
+      },
+      "osmSurfaceKm": {
+        "asphalt": 0.145,
+        "gravel": 0.0,
+        "trail": 0.0,
+        "unknown": 0.0
+      },
+      "maxMatchDistanceM": 21.1
+    },
+    "surfaceSource": "kunst-og-koboltrunden/kunstkobolt_elevation_with_surface_legacy.json",
+    "sortOrder": 12,
+    "color": "#37394E",
+    "description": "En langtur fra Lampeland til Blaafarveværket og Kittelsen-museet, gjennom skoger og landskap som inspirerte eventyrmaleren Th. Kittelsen.",
+    "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/kunstogkobolt.jpg",
+    "pageUrl": "https://www.svingom.no/sykkeltur/kunst-og-kobolt-runden",
+    "symbols": [
+      "bathingspot",
+      "attractions",
+      "handlevogn",
+      "kaffekopp",
+      "eat",
+      "hotel",
+      "bikecharge",
+      "secureparking"
+    ],
+    "difficulty": "krevende"
+  },
+  "rollag-rundt": {
+    "id": "rollag-rundt",
+    "name": {
+      "no": "Rollag rundt"
+    },
+    "gpxUrl": "https://cdn.jsdelivr.net/gh/sihoe/Rollag-Rundt@latest/rollagrundt.gpx",
+    "elevationUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/elevation/rollagrundt_elevation_with_surface_legacy.json",
+    "elevationSurfaceUrl": null,
+    "stats": {
+      "distanceKm": 19.4,
+      "climbM": 275,
+      "descentM": 275,
+      "maxElevationM": 380,
+      "minElevationM": 196,
+      "biggestClimb": {
+        "gainM": 185,
+        "lengthKm": 10.72,
+        "fromKm": 6.29,
+        "toKm": 17.02,
+        "avgGradePct": 1.7
+      }
+    },
+    "surface": {
+      "totalKm": 19.4,
+      "categoryKm": {
+        "asphalt": 13.3,
+        "gravel": 4.3,
+        "trail": 1.8,
+        "unknown": 0.0
+      },
+      "osmSurfaceKm": {
+        "asphalt": 0.0,
+        "gravel": 0.0,
+        "trail": 0.0,
+        "unknown": 0.0
+      },
+      "maxMatchDistanceM": 18.2
+    },
+    "surfaceSource": "rollag-rundt/rollagrundt_elevation_with_surface_legacy.json",
+    "sortOrder": 11,
+    "color": "#D38262",
+    "description": "En flott rundtur i Rollag-området, med vakker utsikt og flere historiske stoppesteder underveis.",
+    "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/rollagrundt.jpg",
+    "pageUrl": "https://www.svingom.no/sykkeltur/rollag-rundt",
+    "symbols": [
+      "attractions",
+      "handlevogn"
+    ],
+    "difficulty": "enkel"
+  },
+  "baklivegen-rundt": {
+    "id": "baklivegen-rundt",
+    "name": {
+      "no": "Baklivegen rundt"
+    },
+    "gpxUrl": "https://cdn.jsdelivr.net/gh/sihoe/baklierundt@latest/Baklivegenrundt.gpx",
+    "elevationUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/elevation/baklivegenrundt_elevation_with_surface_legacy.json",
+    "elevationSurfaceUrl": null,
+    "stats": {
+      "distanceKm": 29.3,
+      "climbM": 493,
+      "descentM": 493,
+      "maxElevationM": 827,
+      "minElevationM": 466,
+      "biggestClimb": {
+        "gainM": 362,
+        "lengthKm": 4.71,
+        "fromKm": 4.62,
+        "toKm": 9.33,
+        "avgGradePct": 7.7
+      }
+    },
+    "surface": {
+      "totalKm": 29.3,
+      "categoryKm": {
+        "asphalt": 14.2,
+        "gravel": 13.6,
+        "trail": 1.5,
+        "unknown": 0.0
+      },
+      "osmSurfaceKm": {
+        "asphalt": 0.146,
+        "gravel": 0.0,
+        "trail": 0.0,
+        "unknown": 0.0
+      },
+      "maxMatchDistanceM": 21.9
+    },
+    "surfaceSource": "baklivegen-rundt/baklivegenrundt_elevation_with_surface_legacy.json",
+    "sortOrder": 5,
+    "color": "#D38262",
+    "description": "En variert sykkeltur med nydelig utsikt mot storslåtte fjell, flott kulturlandskap og besøk til Uvdal stavkirke.",
+    "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/baklierundt.jpg",
+    "pageUrl": "https://www.svingom.no/sykkeltur/uvdal/baklie-rundt",
+    "symbols": [
+      "bathingspot",
+      "attractions",
+      "handlevogn",
+      "kaffekopp",
+      "eat",
+      "fishing",
+      "gaardsdyr",
+      "tent",
+      "kayak",
+      "bikecharge",
+      "secureparking"
+    ],
+    "difficulty": "enkel"
+  },
+  "numedalsruta-nasjonal-rute-5": {
+    "id": "numedalsruta-nasjonal-rute-5",
+    "name": {
+      "no": "Numedalsruta (Nasjonal sykkelrute nr. 5)"
+    },
+    "gpxUrl": "https://cdn.jsdelivr.net/gh/sihoe/Numedalsruta@latest/Rute_NS5.gpx",
+    "elevationUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/elevation/NS_5_Numedalsruta_elevation_with_surface_legacy.json",
+    "elevationSurfaceUrl": null,
+    "stats": {
+      "distanceKm": 186.0,
+      "climbM": 913,
+      "descentM": 1308,
+      "maxElevationM": 1014,
+      "minElevationM": 159,
+      "biggestClimb": {
+        "gainM": 262,
+        "lengthKm": 18.79,
+        "fromKm": 31.06,
+        "toKm": 49.85,
+        "avgGradePct": 1.4
+      }
+    },
+    "surface": {
+      "totalKm": 186.0,
+      "categoryKm": {
+        "asphalt": 112.2,
+        "gravel": 73.0,
+        "trail": 0.8,
+        "unknown": 0.0
+      },
+      "osmSurfaceKm": {
+        "asphalt": 1.916,
+        "gravel": 1.522,
+        "trail": 0.01,
+        "unknown": 0.0
+      },
+      "maxMatchDistanceM": null
+    },
+    "surfaceSource": "numedalsruta-nasjonal-rute-5/NS_5_Numedalsruta_elevation_with_surface_legacy.json",
+    "sortOrder": 1,
+    "color": "#37394E",
+    "description": "Turen går gjennom hele Numedal og tar deg fra høyfjellet på Dagali gjennom middelalderhistorie og levende kulturlandskap og bygder.",
+    "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/numedalsruta.jpg",
+    "pageUrl": "https://www.svingom.no/sykkeltur/numedalsruta",
+    "symbols": [
+      "bathingspot",
+      "attractions",
+      "handlevogn",
+      "kaffekopp",
+      "eat",
+      "fishing",
+      "tent",
+      "hiking",
+      "kayak",
+      "hotel",
+      "bikecharge",
+      "secureparking"
+    ],
+    "difficulty": "krevende"
+  },
+  "blaafarverunden": {
+    "id": "blaafarverunden",
+    "name": {
+      "no": "Blaafarverunden"
+    },
+    "gpxUrl": "https://cdn.jsdelivr.net/gh/sihoe/blaafarverunden@latest/Blaafarverunden.gpx",
+    "elevationUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/elevation/blaafarverunden_elevation_with_surface_legacy.json",
+    "elevationSurfaceUrl": null,
+    "stats": {
+      "distanceKm": 90.2,
+      "climbM": 1574,
+      "descentM": 1574,
+      "maxElevationM": 548,
+      "minElevationM": 71,
+      "biggestClimb": {
+        "gainM": 415,
+        "lengthKm": 23.62,
+        "fromKm": 53.12,
+        "toKm": 76.74,
+        "avgGradePct": 1.8
+      }
+    },
+    "surface": {
+      "totalKm": 90.2,
+      "categoryKm": {
+        "asphalt": 58.6,
+        "gravel": 31.6,
+        "trail": 0.0,
+        "unknown": 0.0
+      },
+      "osmSurfaceKm": {
+        "asphalt": 0.0,
+        "gravel": 0.0,
+        "trail": 0.0,
+        "unknown": 0.0
+      },
+      "maxMatchDistanceM": 7.6
+    },
+    "surfaceSource": "blaafarverunden/blaafarverunden_elevation_with_surface_legacy.json",
+    "sortOrder": 13,
+    "color": "#4484A2",
+    "description": "En sjarmerende rundtur fra Lampeland til Blaafarveværket. Turen går på stille veier i vakkert kulturlandskap, åpen skog, langs elver og vann og en svingom innom en av få privateide kirker i Norge.",
+    "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/blaafarverunden.jpg",
+    "pageUrl": "https://www.svingom.no/sykkeltur/blaafarverunden",
+    "symbols": [
+      "bathingspot",
+      "attractions",
+      "handlevogn",
+      "kaffekopp",
+      "eat",
+      "fishing",
+      "hotel",
+      "bikecharge",
+      "secureparking"
+    ],
+    "difficulty": "krevende"
+  },
+  "ovrebygderunden": {
+    "id": "ovrebygderunden",
+    "name": {
+      "no": "Øvrebygderunden"
+    },
+    "gpxUrl": "https://cdn.jsdelivr.net/gh/sihoe/overbygdarundene@main/overbygderunden_lang.gpx",
+    "elevationUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/elevation/overbygderunden_lang_elevation_with_surface_legacy.json",
+    "elevationSurfaceUrl": null,
+    "stats": {
+      "distanceKm": 23.3,
+      "climbM": 323,
+      "descentM": 323,
+      "maxElevationM": 615,
+      "minElevationM": 192,
+      "biggestClimb": {
+        "gainM": 419,
+        "lengthKm": 9.48,
+        "fromKm": 0.0,
+        "toKm": 9.48,
+        "avgGradePct": 4.4
+      }
+    },
+    "surface": {
+      "totalKm": 23.3,
+      "categoryKm": {
+        "asphalt": 21.0,
+        "gravel": 1.6,
+        "trail": 0.6,
+        "unknown": 0.0
+      },
+      "osmSurfaceKm": {
+        "asphalt": 21.025,
+        "gravel": 1.628,
+        "trail": 0.612,
+        "unknown": 0.0
+      },
+      "maxMatchDistanceM": 23.8
+    },
+    "surfaceSource": "ovrebygderunden/ovrebygderunden_elevation_with_surface_legacy.json",
+    "sortOrder": 7,
+    "color": "#9C6B2A",
+    "description": "Fin tur med bademuligheter i Tessungåe og nydelig utsikt mot Tinnsjø og Austbygde. Gode muligheter for å nyte lokale spesialiteter.",
+    "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/ovrebygderundene.jpg",
+    "pageUrl": "https://www.svingom.no/sykkeltur/tinn/ovrebygde-rundene",
+    "symbols": [
+      "attractions",
+      "bathingspot",
+      "cabin",
+      "eat",
+      "fishing",
+      "gaardsdyr",
+      "hiking",
+      "kaffekopp",
+      "tent",
+      "bikecharge",
+      "secureparking"
+    ],
+    "difficulty": "enkel"
+  },
+  "imingfjell-rundt": {
+    "id": "imingfjell-rundt",
+    "name": {
+      "no": "Imingfjell rundt"
+    },
+    "gpxUrl": "https://cdn.jsdelivr.net/gh/sihoe/imingfjellrundt@main/Imingfjellrundt.gpx",
+    "elevationUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/elevation/imingfjellrundt_elevation_with_surface_legacy.json",
+    "elevationSurfaceUrl": null,
+    "stats": {
+      "distanceKm": 47.7,
+      "climbM": 819,
+      "descentM": 819,
+      "maxElevationM": 1308,
+      "minElevationM": 593,
+      "biggestClimb": {
+        "gainM": 413,
+        "lengthKm": 18.55,
+        "fromKm": 29.14,
+        "toKm": 47.69,
+        "avgGradePct": 2.2
+      }
+    },
+    "surface": {
+      "totalKm": 47.7,
+      "categoryKm": {
+        "asphalt": 9.4,
+        "gravel": 29.0,
+        "trail": 9.3,
+        "unknown": 0.0
+      },
+      "osmSurfaceKm": {
+        "asphalt": 0.0,
+        "gravel": 0.0,
+        "trail": 0.0,
+        "unknown": 0.0
+      },
+      "maxMatchDistanceM": 15.8
+    },
+    "surfaceSource": "imingfjell-rundt/imingfjellrundt_elevation_with_surface_legacy.json",
+    "sortOrder": 3,
+    "color": "#CA6B2A",
+    "description": "En nydelig tur over høyfjellet på Imingfjell i Uvdal. Her får kan du se vidt og bredt, mot Hardangervidda, Hallingskarvet og flotte sjøer og vann, samt ta en velfortjent pause på Solheimstulen Turisthytte og Imingfjell Turistheim.",
+    "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/Imingfjellrundt.jpg",
+    "pageUrl": "https://www.svingom.no/sykkeltur-imingfjell-rundt",
+    "symbols": [
+      "bathingspot",
+      "cabin",
+      "eat",
+      "fishing",
+      "kaffekopp",
+      "tent",
+      "bikecharge"
+    ],
+    "difficulty": "krevende"
+  },
+  "kirkebygda-rundt": {
+    "id": "kirkebygda-rundt",
+    "name": {
+      "no": "Kirkebygda rundt"
+    },
+    "gpxUrl": "https://cdn.jsdelivr.net/gh/sihoe/kirkebygdarundt@main/kirkebydgarundt.gpx",
+    "elevationUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/elevation/kirkebygdarundt_elevation_with_surface_legacy.json",
+    "elevationSurfaceUrl": null,
+    "stats": {
+      "distanceKm": 13.1,
+      "climbM": 190,
+      "descentM": 190,
+      "maxElevationM": 641,
+      "minElevationM": 466,
+      "biggestClimb": {
+        "gainM": 175,
+        "lengthKm": 2.75,
+        "fromKm": 4.63,
+        "toKm": 7.38,
+        "avgGradePct": 6.4
+      }
+    },
+    "surface": {
+      "totalKm": 13.1,
+      "categoryKm": {
+        "asphalt": 9.7,
+        "gravel": 3.0,
+        "trail": 0.4,
+        "unknown": 0.0
+      },
+      "osmSurfaceKm": {
+        "asphalt": 0.128,
+        "gravel": 0.0,
+        "trail": 0.0,
+        "unknown": 0.0
+      },
+      "maxMatchDistanceM": 16.6
+    },
+    "surfaceSource": "kirkebygda-rundt/kirkebygdarundt_elevation_with_surface_legacy.json",
+    "sortOrder": 4,
+    "color": "#E0922F",
+    "description": "En familievennlig tur langs Uvdalsåe, opp til den vakre Uvdal stavkirke og gjennom idylliske kulturlandskap til Uvdal sentrum.",
+    "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/Kirkebygdarundt.jpg",
+    "pageUrl": "https://www.svingom.no/sykkeltur/uvdal/kirkebygda-rundt",
+    "symbols": [
+      "attractions",
+      "bathingspot",
+      "cabin",
+      "eat",
+      "fishing",
+      "kaffekopp",
+      "tent",
+      "bikecharge",
+      "secureparking"
+    ],
+    "difficulty": "enkel"
+  },
+  "norerunden": {
+    "id": "norerunden",
+    "name": {
+      "no": "Norerunden"
+    },
+    "gpxUrl": "https://cdn.jsdelivr.net/gh/sihoe/norerunden@main/norerunden.gpx",
+    "elevationUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/elevation/norerunden_elevation_with_surface_legacy.json",
+    "elevationSurfaceUrl": null,
+    "stats": {
+      "distanceKm": 36.2,
+      "climbM": 925,
+      "descentM": 925,
+      "maxElevationM": 899,
+      "minElevationM": 237,
+      "biggestClimb": {
+        "gainM": 662,
+        "lengthKm": 11.91,
+        "fromKm": 0.04,
+        "toKm": 11.95,
+        "avgGradePct": 5.6
+      }
+    },
+    "surface": {
+      "totalKm": 36.2,
+      "categoryKm": {
+        "asphalt": 19.4,
+        "gravel": 16.8,
+        "trail": 0.0,
+        "unknown": 0.0
+      },
+      "osmSurfaceKm": {
+        "asphalt": 0.069,
+        "gravel": 0.0,
+        "trail": 0.0,
+        "unknown": 0.0
+      },
+      "maxMatchDistanceM": 6.3
+    },
+    "surfaceSource": "norerunden/norerunden_elevation_with_surface_legacy.json",
+    "sortOrder": 9,
+    "color": "#AB4B2A",
+    "description": "En rundtur fra fjell til fjord, med høyfjellssykling over Vegglifjell, nedkjøring til Norefjorden, og vakre kulturlandskap langs Kravikfjorden og Numedalslågen.",
+    "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/Norerunden.JPG",
+    "pageUrl": "https://www.svingom.no/sykkeltur-norerunden",
+    "symbols": [
+      "attractions",
+      "bathingspot",
+      "cabin",
+      "eat",
+      "kaffekopp",
+      "bikecharge",
+      "secureparking"
+    ],
+    "difficulty": "middels"
+  },
+  "skagsaasen-og-kravikfjorden-rundt": {
+    "id": "skagsaasen-og-kravikfjorden-rundt",
+    "name": {
+      "no": "Skagsåsen og Kravikfjorden rundt"
+    },
+    "gpxUrl": "https://cdn.jsdelivr.net/gh/sihoe/skagsaasenrundt@main/skagsaasenrundt.gpx",
+    "elevationUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/elevation/skagsaasenrundt_elevation_with_surface_legacy.json",
+    "elevationSurfaceUrl": null,
+    "stats": {
+      "distanceKm": 34.8,
+      "climbM": 769,
+      "descentM": 769,
+      "maxElevationM": 557,
+      "minElevationM": 260,
+      "biggestClimb": {
+        "gainM": 280,
+        "lengthKm": 9.94,
+        "fromKm": 0.8,
+        "toKm": 10.74,
+        "avgGradePct": 2.8
+      }
+    },
+    "surface": {
+      "totalKm": 34.8,
+      "categoryKm": {
+        "asphalt": 17.3,
+        "gravel": 17.5,
+        "trail": 0.0,
+        "unknown": 0.0
+      },
+      "osmSurfaceKm": {
+        "asphalt": 0.0,
+        "gravel": 0.0,
+        "trail": 0.0,
+        "unknown": 0.0
+      },
+      "maxMatchDistanceM": 12.4
+    },
+    "surfaceSource": "skagsaasen-og-kravikfjorden-rundt/skagsaasenrundt_elevation_with_surface_legacy.json",
+    "sortOrder": 8,
+    "color": "#C4683A",
+    "description": "En tur gjennom skogslandskap og kulturlandsskap, her kan du besøke Nore stavkirke og stasjonene langs Numedalsbanen og nyte stille veier ved Kravikfjorden.",
+    "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/skagsaasen.jpg",
+    "pageUrl": "https://www.svingom.no/sykkeltur/nore/skagsaasen-rundt",
+    "symbols": [
+      "attractions"
+    ],
+    "difficulty": "middels"
+  },
+  "bingenrunden": {
+    "id": "bingenrunden",
+    "name": {
+      "no": "Bingenrunden"
+    },
+    "gpxUrl": "https://cdn.jsdelivr.net/gh/sihoe/gyger@main/bingen-runden.gpx",
+    "elevationUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/elevation/bingenrunden_elevation_with_surface_legacy.json",
+    "elevationSurfaceUrl": null,
+    "stats": {
+      "distanceKm": 47.6,
+      "climbM": 742,
+      "descentM": 742,
+      "maxElevationM": 548,
+      "minElevationM": 147,
+      "biggestClimb": {
+        "gainM": 362,
+        "lengthKm": 7.51,
+        "fromKm": 0.83,
+        "toKm": 8.34,
+        "avgGradePct": 4.8
+      }
+    },
+    "surface": {
+      "totalKm": 47.6,
+      "categoryKm": {
+        "asphalt": 21.0,
+        "gravel": 26.6,
+        "trail": 0.0,
+        "unknown": 0.0
+      },
+      "osmSurfaceKm": {
+        "asphalt": 0.883,
+        "gravel": 0.471,
+        "trail": 0.0,
+        "unknown": 0.0
+      },
+      "maxMatchDistanceM": 7.6
+    },
+    "surfaceSource": "bingenrunden/bingenrunden_elevation_with_surface_legacy.json",
+    "sortOrder": 14,
+    "color": "#84492A",
+    "description": "En rundtur fra Lampeland gjennom åpen skog, langs elver og vann, med vakre kulturlandskap i Bingen og Lyngdal. Underveis kan du ta en rast ved Letmolivatnet og nyte utsikten fra Lyngdal kirke.",
+    "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/Bingenrunden.jpg",
+    "pageUrl": "https://www.svingom.no/sykkeltur/bingen-runden",
+    "symbols": [
+      "attractions",
+      "bathingspot",
+      "eat",
+      "fishing",
+      "kaffekopp",
+      "hotel",
+      "bikecharge",
+      "secureparking"
+    ],
+    "difficulty": "middels"
+  },
+  "bolkesjorunden": {
+    "id": "bolkesjorunden",
+    "name": {
+      "no": "Bolkesjørunden"
+    },
+    "gpxUrl": "https://cdn.jsdelivr.net/gh/sihoe/bolkesjorunden@main/bolkesjorunden.gpx",
+    "elevationUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/elevation/bolkesjorunden_elevation_with_surface_legacy.json",
+    "elevationSurfaceUrl": null,
+    "stats": {
+      "distanceKm": 12.5,
+      "climbM": 147,
+      "descentM": 147,
+      "maxElevationM": 480,
+      "minElevationM": 225,
+      "biggestClimb": {
+        "gainM": 255,
+        "lengthKm": 6.06,
+        "fromKm": 0.02,
+        "toKm": 6.08,
+        "avgGradePct": 4.2
+      }
+    },
+    "surface": {
+      "totalKm": 12.5,
+      "categoryKm": {
+        "asphalt": 5.3,
+        "gravel": 7.2,
+        "trail": 0.0,
+        "unknown": 0.0
+      },
+      "osmSurfaceKm": {
+        "asphalt": 0.326,
+        "gravel": 0.0,
+        "trail": 0.0,
+        "unknown": 0.0
+      },
+      "maxMatchDistanceM": 1.2
+    },
+    "surfaceSource": "_with_surface_export/bolkesjorunden_elevation_with_surface_legacy.json",
+    "sortOrder": 17,
+    "color": "#84492A",
+    "description": "En tur i skogslandskap og langs vakre Follsjø. Du passerer Norges eldste bolighus og vakre Bolkesjø Gaard. Start og stopp på den flotte badestranden ved Follsjø.",
+    "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/bolkesjorunden.jpg",
+    "pageUrl": "https://www.svingom.no/sykkeltur/bolkesjo/bolkesjorunden",
+    "symbols": [
+      "attractions",
+      "bathingspot",
+      "eat",
+      "fishing",
+      "cabin",
+      "hiking"
+    ],
+    "difficulty": "enkel"
+  },
+  "follsjorundt": {
+    "id": "follsjorundt",
+    "name": {
+      "no": "Follsjø rundt"
+    },
+    "gpxUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/gpx/follsjorundt.gpx",
+    "elevationUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/elevation/follsjorundt_elevation_with_surface_legacy.json",
+    "elevationSurfaceUrl": null,
+    "stats": {
+      "distanceKm": 33.2,
+      "climbM": 223,
+      "descentM": 223,
+      "maxElevationM": 403,
+      "minElevationM": 126,
+      "biggestClimb": {
+        "gainM": 177,
+        "lengthKm": 4.42,
+        "fromKm": 0.1,
+        "toKm": 4.52,
+        "avgGradePct": 4.0
+      }
+    },
+    "surface": {
+      "totalKm": 33.2,
+      "categoryKm": {
+        "asphalt": 13.0,
+        "gravel": 15.9,
+        "trail": 4.3,
+        "unknown": 0.0
+      },
+      "osmSurfaceKm": {
+        "asphalt": 0.299,
+        "gravel": 0.063,
+        "trail": 0.091,
+        "unknown": 0.0
+      },
+      "maxMatchDistanceM": null
+    },
+    "surfaceSource": "follsjorundt/follsjorundt_elevation_with_surface_legacy.json",
+    "sortOrder": null,
+    "color": "#333333",
+    "description": "",
+    "imageUrl": "",
+    "pageUrl": "https://www.svingom.no/sykkeltur/bolkesjo/follsjorundt",
+    "symbols": [
+      "attractions",
+      "bathingspot",
+      "eat",
+      "fishing",
+      "cabin",
+      "hiking"
+    ],
+    "difficulty": "middels"
+  },
+  "dusanfossrunden": {
+    "id": "dusanfossrunden",
+    "name": {
+      "no": "Dusanfossrunden"
+    },
+    "gpxUrl": "https://cdn.jsdelivr.net/gh/sihoe/bolkesjorunden@main/dusanfossrunden.gpx",
+    "elevationUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/elevation/dusanfossrunden_elevation_with_surface_legacy.json",
+    "elevationSurfaceUrl": null,
+    "stats": {
+      "distanceKm": 12.7,
+      "climbM": 103,
+      "descentM": 103,
+      "maxElevationM": 554,
+      "minElevationM": 413,
+      "biggestClimb": {
+        "gainM": 141,
+        "lengthKm": 10.51,
+        "fromKm": 0.03,
+        "toKm": 10.54,
+        "avgGradePct": 1.3
+      }
+    },
+    "surface": {
+      "totalKm": 12.7,
+      "categoryKm": {
+        "asphalt": 4.9,
+        "gravel": 1.8,
+        "trail": 5.9,
+        "unknown": 0.0
+      },
+      "osmSurfaceKm": {
+        "asphalt": 0.185,
+        "gravel": 0.0,
+        "trail": 0.0,
+        "unknown": 0.0
+      },
+      "maxMatchDistanceM": 23.9
+    },
+    "surfaceSource": "_with_surface_export/dusanfossrunden_elevation_with_surface_legacy.json",
+    "pageUrl": "https://www.svingom.no/sykkeltur/jondal/dusanfossrunden",
+    "symbols": [
+      "attractions",
+      "bathingspot",
+      "eat",
+      "fishing",
+      "cabin",
+      "hiking",
+      "bikecharge",
+      "hotel",
+      "kayak",
+      "secureparking"
+    ],
+    "difficulty": "enkel"
+  },
+  "heimseterrunden": {
+    "id": "heimseterrunden",
+    "name": {
+      "no": "Heimseterrunden"
+    },
+    "gpxUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/gpx/heimseterrunden.gpx",
+    "elevationUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/elevation/heimseterrunden_elevation_with_surface_legacy.json",
+    "elevationSurfaceUrl": null,
+    "stats": {
+      "distanceKm": 16.2,
+      "climbM": 407,
+      "descentM": 407,
+      "maxElevationM": 872,
+      "minElevationM": 618,
+      "biggestClimb": {
+        "gainM": 248,
+        "lengthKm": 5.24,
+        "fromKm": 10.92,
+        "toKm": 16.16,
+        "avgGradePct": 4.7
+      }
+    },
+    "surface": {
+      "totalKm": 16.2,
+      "categoryKm": {
+        "asphalt": 0.0,
+        "gravel": 14.3,
+        "trail": 1.9,
+        "unknown": 0.0
+      },
+      "osmSurfaceKm": {
+        "asphalt": 0.0,
+        "gravel": 14.281,
+        "trail": 1.912,
+        "unknown": 0.0
+      },
+      "maxMatchDistanceM": 13.7
+    },
+    "surfaceSource": "heimseterrunden/heimseterrunden_elevation_with_surface_legacy.json",
+    "pageUrl": "https://www.svingom.no/sykkeltur-heimseterrunden-vegglifjell",
+    "symbols": [
+      "hiking"
+    ],
+    "difficulty": "middels"
+  },
+  "ostskauen-rundt": {
+    "id": "ostskauen-rundt",
+    "name": {
+      "no": "Østskauen rundt"
+    },
+    "gpxUrl": "https://cdn.jsdelivr.net/gh/sihoe/ostskauenrundt@main/ostskauenrundt.gpx",
+    "elevationUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/elevation/ostskauen-rundt_elevation_with_surface_legacy.json",
+    "elevationSurfaceUrl": null,
+    "stats": {
+      "distanceKm": 45.1,
+      "climbM": 631,
+      "descentM": 631,
+      "maxElevationM": 500,
+      "minElevationM": 187,
+      "biggestClimb": {
+        "gainM": 313,
+        "lengthKm": 16.67,
+        "fromKm": 0.8,
+        "toKm": 17.47,
+        "avgGradePct": 1.9
+      }
+    },
+    "surface": {
+      "totalKm": 45.1,
+      "categoryKm": {
+        "asphalt": 45.0,
+        "gravel": 0.2,
+        "trail": 0.0,
+        "unknown": 0.0
+      },
+      "osmSurfaceKm": {
+        "asphalt": 44.98,
+        "gravel": 0.155,
+        "trail": 0.0,
+        "unknown": 0.0
+      },
+      "maxMatchDistanceM": 8.8
+    },
+    "surfaceSource": "ostskauen-rundt/ostskauen-rundt_elevation_with_surface_legacy.json",
+    "sortOrder": 15,
+    "color": "#B56A4C",
+    "description": "Ruten tar deg til Vatnebrynvatnet, gjennom Lyngdal og over Østskauen til Lauvnesvatnet og Vatnås stavkirke. Ruten passerer flere vann med bade- og fiskemuligheter og to flotte kirker.",
+    "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/ostskauenrundt.JPG",
+    "pageUrl": "https://www.svingom.no/sykkeltur-ostskauen-rundt",
+    "symbols": [
+      "attractions",
+      "bathingspot",
+      "eat",
+      "fishing",
+      "kaffekopp",
+      "hotel",
+      "bikecharge",
+      "secureparking"
+    ],
+    "difficulty": "middels"
+  }
+}
