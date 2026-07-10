@@ -11,7 +11,7 @@
   },
   "routes": {
     "smadoldalen-rundt": {
-      "sortOrder": 2,
+      "sortOrder": 5,
       "color": "#D38262",
       "articleUrl": "https://www.svingom.no/sykkeltur-smadoldalen-rundt",
       "imageUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingombilder-4@main/smaadolrunden.jpg",
@@ -69,8 +69,295 @@
       ],
       "routeShape": "loop"
     },
-    "fjellruta-over-vegglifjell": {
-      "sortOrder": 6,
+    "ostskauen-rundt": {
+  "sortOrder": 16,
+  "color": "#B56A4C",
+  "articleUrl": "https://www.svingom.no/sykkeltur-ostskauen-rundt",
+  "imageUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingombilder-2@main/ostskauenrundt.JPG",
+  "symbols": [
+    "attractions",
+    "bathingspot",
+    "eat",
+    "fishing",
+    "kaffekopp",
+    "hotel",
+    "bikecharge",
+    "secureparking"
+  ],
+  "difficultyLegacy": "middels",
+  "tagsSuggested": [
+    "badeplass",
+    "severdigheter",
+    "kaffe",
+    "mat",
+    "fiske",
+    "overnatting",
+    "lading",
+    "sykkelparkering",
+    "mest-asfalt"
+  ],
+  "surfaceClassAuto": "mest-asfalt",
+  "bikeTypeAuto": [
+    "landevei",
+    "elsykkel"
+  ],
+  "durationEstimate": {
+    "minMinutes": 205,
+    "maxMinutes": 275,
+    "display": "3 t 25 min–4 t 35 min",
+    "model": "v1_len_surface_climb",
+    "assumptions": {
+      "vAsphaltKmh": 16.0,
+      "kClimbKmPer100m": 1.0,
+      "stopBuffer": 0.25,
+      "spread": 0.15
+    }
+  },
+  "needsReview": false,
+  "season": {
+    "months": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "bases": [
+    "Lampeland"
+  ],
+  "routeShape": "loop"
+},
+"flesberg-bading": {
+  "sortOrder": 19,
+  "color": "#37394E",
+  "articleUrl": "https://www.svingom.no/sykkeltur/flesberg-sykkel-og-bading",
+  "imageUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingombilder-1@main/flesberg-bading.jpg",
+  "symbols": [
+    "handlevogn",
+    "bathingspot",
+    "hotel",
+    "eat",
+    "fishing",
+    "attractions"
+  ],
+  "difficultyLegacy": "middels",
+  "tagsSuggested": [
+    "badeplass",
+    "severdigheter",
+    "matbutikk",
+    "mat",
+    "fiske",
+    "overnatting",
+    "familie",
+    "mest-asfalt"
+  ],
+  "surfaceClassAuto": "mest-asfalt",
+  "bikeTypeAuto": [
+    "landevei",
+    "elsykkel"
+  ],
+  "durationEstimate": {
+    "minMinutes": 135,
+    "maxMinutes": 180,
+    "display": "2 t 15 min–3 t",
+    "model": "v1_len_surface_climb",
+    "assumptions": {
+      "vAsphaltKmh": 16.0,
+      "kClimbKmPer100m": 1.0,
+      "stopBuffer": 0.25,
+      "spread": 0.15
+    }
+  },
+  "needsReview": false,
+  "season": {
+    "months": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "bases": [
+    "Lampeland"
+  ],
+  "routeShape": "loop"
+},
+
+"lurdalsrunden": {
+  "sortOrder": 21,
+  "color": "#37394E",
+  "articleUrl": "https://www.svingom.no/sykkeltur-lurdalsrunden",
+  "imageUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingombilder-1@main/lurdalsrunden.jpg",
+  "symbols": [
+    "handlevogn",
+    "bathingspot",
+    "hotel",
+    "eat",
+    "attractions"
+  ],
+  "difficultyLegacy": "middels",
+  "tagsSuggested": [
+    "badeplass",
+    "severdigheter",
+    "matbutikk",
+    "mat",
+    "overnatting",
+    "mest-asfalt"
+  ],
+  "surfaceClassAuto": "mest-asfalt",
+  "bikeTypeAuto": [
+    "landevei",
+    "elsykkel"
+  ],
+  "durationEstimate": {
+    "minMinutes": 215,
+    "maxMinutes": 290,
+    "display": "3 t 35 min–4 t 50 min",
+    "model": "v1_len_surface_climb",
+    "assumptions": {
+      "vAsphaltKmh": 16.0,
+      "kClimbKmPer100m": 1.0,
+      "stopBuffer": 0.25,
+      "spread": 0.15
+    }
+  },
+  "needsReview": false,
+  "season": {
+    "months": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "bases": [
+    "Lampeland",
+    "Kongsberg"
+  ],
+  "routeShape": "loop"
+},
+"vatnebrynvatnet-rundt": {
+  "sortOrder": 18,
+  "color": "#37394E",
+  "articleUrl": "https://www.svingom.no/sykkeltur-vatnebrynvatnet",
+  "imageUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingombilder-1@main/vatnebrynvatnet-rundt.jpg",
+  "symbols": [
+    "handlevogn",
+    "hotel",
+    "eat",
+    "bathingspot",
+    "hiking",
+    "attractions",
+    "fishing"
+  ],
+  "difficultyLegacy": "enkel",
+  "tagsSuggested": [
+    "matbutikk",
+    "overnatting",
+    "mat",
+    "badeplass",
+    "fottur",
+    "severdigheter",
+    "fiske",
+    "familie",
+    "mest-asfalt"
+  ],
+  "surfaceClassAuto": "mest-asfalt",
+  "bikeTypeAuto": [
+    "landevei",
+    "elsykkel"
+  ],
+  "durationEstimate": {
+    "minMinutes": 90,
+    "maxMinutes": 120,
+    "display": "1 t 30 min–2 t",
+    "model": "v1_len_surface_climb",
+    "assumptions": {
+      "vAsphaltKmh": 16.0,
+      "kClimbKmPer100m": 1.0,
+      "stopBuffer": 0.25,
+      "spread": 0.15
+    }
+  },
+  "needsReview": false,
+  "season": {
+    "months": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "bases": [
+    "Lampeland"
+  ],
+  "routeShape": "loop"
+},
+"langaasen-rundt": {
+  "sortOrder": 12,
+  "color": "#37394E",
+  "articleUrl": "https://www.svingom.no/sykkeltur/veggli/kjerre-langaasen-rundt",
+  "imageUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingombilder-1@main/langaasen-rundt.jpg",
+  "symbols": [
+    "bathingspot",
+    "handlevogn",
+    "attractions",
+    "hotel"
+  ],
+  "difficultyLegacy": "middels",
+  "tagsSuggested": [
+    "badeplass",
+    "matbutikk",
+    "severdigheter",
+    "overnatting",
+    "mest-grus"
+  ],
+  "surfaceClassAuto": "mest-grus",
+  "bikeTypeAuto": [
+    "gravel",
+    "elsykkel"
+  ],
+  "durationEstimate": {
+    "minMinutes": 110,
+    "maxMinutes": 150,
+    "display": "1 t 50 min–2 t 30 min",
+    "model": "v1_len_surface_climb",
+    "assumptions": {
+      "vAsphaltKmh": 16.0,
+      "kClimbKmPer100m": 1.0,
+      "stopBuffer": 0.25,
+      "spread": 0.15
+    }
+  },
+  "needsReview": false,
+  "season": {
+    "months": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "bases": [
+    "Veggli"
+  ],
+  "routeShape": "loop"
+},
+  "fjellruta-over-vegglifjell": {
+      "sortOrder": 2,
       "color": "#37394E",
       "articleUrl": "https://www.svingom.no/sykkeltur/fjellruta",
       "imageUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingombilder-1@main/fjellruta.jpg",
@@ -142,7 +429,7 @@
       "routeShape": "loop"
     },
     "blefjell-juvefossen": {
-      "sortOrder": 9999,
+      "sortOrder": 20,
       "color": "#37394E",
       "articleUrl": "https://www.svingom.no/sykkeltur/blefjell/blefjell-lodge-juvefossen",
       "imageUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingombilder-3@main/blefjelljuvefossen.jpg",
@@ -206,7 +493,7 @@
       "routeShape": "out_and_back"
     },
     "trillemarka-rundt": {
-      "sortOrder": 10,
+      "sortOrder": 3,
       "color": "#37394E",
       "articleUrl": "https://www.svingom.no/sykkeltur/trillemarka-rundt",
       "imageUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingombilder-3@main/trillemarkarundt.jpg",
@@ -268,7 +555,7 @@
       "routeShape": "loop"
     },
     "kunst-og-koboltrunden": {
-      "sortOrder": 12,
+      "sortOrder": 14,
       "color": "#37394E",
       "articleUrl": "https://www.svingom.no/sykkeltur/kunst-og-kobolt-runden",
       "imageUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingombilder-1@main/kunstogkobolt.jpg",
@@ -331,7 +618,7 @@
       "routeShape": "loop"
     },
     "rollag-rundt": {
-      "sortOrder": 11,
+      "sortOrder": 9,
       "color": "#D38262",
       "articleUrl": "https://www.svingom.no/sykkeltur/rollag-rundt",
       "imageUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingombilder-4@main/rollagrundt.jpg",
@@ -381,7 +668,7 @@
       "routeShape": "loop"
     },
     "baklivegen-rundt": {
-      "sortOrder": 9999,
+      "sortOrder": 7,
       "color": "#37394E",
       "articleUrl": "https://www.svingom.no/sykkeltur/uvdal/baklie-rundt",
       "imageUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingombilder-1@main/baklierundt.jpg",
@@ -514,7 +801,7 @@
       "routeShape": "point_to_point"
     },
     "blaafarverunden": {
-      "sortOrder": 13,
+      "sortOrder": 15,
       "color": "#4484A2",
       "articleUrl": "https://www.svingom.no/sykkeltur/blaafarverunden",
       "imageUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingombilder-4@main/blaafarverunden.jpg",
@@ -578,7 +865,7 @@
       "routeShape": "loop"
     },
     "ovrebygderunden": {
-      "sortOrder": 7,
+      "sortOrder": 8,
       "color": "#9C6B2A",
       "articleUrl": "https://www.svingom.no/sykkeltur/tinn/ovrebygde-rundene",
       "imageUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingombilder-3@main/ovrebygderundene.jpg",
@@ -644,7 +931,7 @@
       "routeShape": "loop"
     },
     "imingfjell-rundt": {
-      "sortOrder": 3,
+      "sortOrder": 4,
       "color": "#CA6B2A",
       "articleUrl": "https://www.svingom.no/sykkeltur-imingfjell-rundt",
       "imageUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingombilder-2@main/Imingfjellrundt.jpg",
@@ -763,7 +1050,7 @@
       "routeShape": "loop"
     },
     "norerunden": {
-      "sortOrder": 9,
+      "sortOrder": 10,
       "color": "#AB4B2A",
       "articleUrl": "https://www.svingom.no/sykkeltur-norerunden",
       "imageUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingombilder-2@main/Norerunden.JPG",
@@ -821,7 +1108,7 @@
       "routeShape": "loop"
     },
     "skagsaasen-og-kravikfjorden-rundt": {
-      "sortOrder": 8,
+      "sortOrder": 11,
       "color": "#C4683A",
       "articleUrl": "https://www.svingom.no/sykkeltur/nore/skagsaasen-rundt",
       "imageUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingombilder-2@main/skagsaasen.jpg",
@@ -868,7 +1155,7 @@
       "routeShape": "loop"
     },
     "bingenrunden": {
-      "sortOrder": 14,
+      "sortOrder": 17,
       "color": "#84492A",
       "articleUrl": "https://www.svingom.no/sykkeltur/bingen-runden",
       "imageUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingombilder-3@main/Bingenrunden.jpg",
@@ -929,7 +1216,7 @@
       "routeShape": "loop"
     },
     "bolkesjorunden": {
-      "sortOrder": 17,
+      "sortOrder": 23,
       "color": "#84492A",
       "articleUrl": "https://www.svingom.no/sykkeltur/bolkesjo/bolkesjorunden",
       "imageUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingombilder-2@main/bolkesjorunden.jpg",
@@ -986,7 +1273,7 @@
       "routeShape": "loop"
     },
     "follsjorundt": {
-      "sortOrder": 9999,
+      "sortOrder": 22,
       "color": "#37394E",
       "articleUrl": "https://www.svingom.no/sykkeltur/bolkesjo/follsjorundt",
       "imageUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingombilder-1@main/follsjorundt.jpg",
@@ -1043,7 +1330,7 @@
       "routeShape": "loop"
     },
     "dusanfossrunden": {
-      "sortOrder": 9999,
+      "sortOrder": 24,
       "color": "#37394E",
       "articleUrl": "https://www.svingom.no/sykkeltur/jondal/dusanfossrunden",
       "imageUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingombilder-1@main/dusanfossrunden.jpg",
@@ -1101,7 +1388,7 @@
       "routeShape": "loop"
     },
     "heimseterrunden": {
-      "sortOrder": 999,
+      "sortOrder": 13,
       "color": "#37394E",
       "articleUrl": "https://www.svingom.no/sykkeltur-heimseterrunden-vegglifjell",
       "imageUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingombilder-1@main/heimseterrunden.jpg",
@@ -1148,7 +1435,7 @@
       "needsReview": true
     },
     "ostskauen-rundt": {
-      "sortOrder": 15,
+      "sortOrder": 16,
       "color": "#B56A4C",
       "articleUrl": "https://www.svingom.no/sykkeltur-ostskauen-rundt",
       "imageUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingombilder-2@main/ostskauenrundt.JPG",
