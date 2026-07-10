@@ -47,6 +47,166 @@
         ]
       }
     },
+  "ostskauen-rundt": {
+  "title": {
+    "no": "Østskauen rundt",
+    "en": "Østskauen Loop",
+    "de": "Östskauen-Runde"
+  },
+  "description": {
+    "no": "En sykkeltur i vakkert kulturlandskap, langs flotte vann med bademuligheter og en svingom innom Lyngdal og Våtnås kirke og Olavkilden",
+    "en": "A scenic cycling tour through beautiful farmland, past inviting lakes for swimming, with a visit to Lyngdal, Vatnås Church and the legendary St. Olav's Spring.",
+    "de": "Eine abwechslungsreiche Radtour durch eine reizvolle Kulturlandschaft, vorbei an schönen Badeseen und mit Abstechern nach Lyngdal, zur Kirche von Vatnås und zur Olavsquelle."
+  },
+  "highlights": {
+    "no": [
+      "Vatnås kirke, Olavskilden og sagnet om Olav den Hellige",
+      "Idylliske Lyngdal og Lyngdal kirke",
+      "Vatnebrynvatnet med tilrettelagt friluftsområde"
+    ],
+    "en": [
+      "Vatnås Church, St. Olav's Spring and the legend of St. Olav",
+      "The idyllic village of Lyngdal and Lyngdal Church",
+      "Vatnebrynvatnet lake with a well-equipped recreation area"
+    ],
+    "de": [
+      "Kirche von Vatnås, die Olavsquelle und die Legende des heiligen Olav",
+      "Das idyllische Dorf Lyngdal mit seiner Kirche",
+      "Der See Vatnebrynvatnet mit schönem Erholungsgebiet"
+    ]
+  },
+  "tips": {
+    "no": [
+      "Ta med mat og drikke, det er få handlemuligheter underveis"
+    ],
+    "en": [
+      "Bring food and drink – there are few places to resupply along the way"
+    ],
+    "de": [
+      "Essen und Trinken mitnehmen – unterwegs gibt es nur wenige Einkaufsmöglichkeiten"
+    ]
+  }
+},
+"vatnebrynvatnet-rundt": {
+  "title": {
+    "no": "Vatnebrynvatnet rundt",
+    "en": "Vatnebrynvatnet Loop",
+    "de": "Vatnebrynvatnet-Runde"
+  },
+  "description": {
+    "no": "En sykkeltur langs bredden av Vatnebrynvatnet. Flott kulturlandskap i Ligrenda og tilrettelagt friluftsområde med gapahuk, bålplass og badeplass",
+    "en": "A pleasant cycling tour along the shores of Lake Vatnebrynvatnet through the scenic countryside of Ligrenda, with a recreation area offering a shelter, fire pit and swimming spot.",
+    "de": "Eine schöne Radtour entlang des Sees Vatnebrynvatnet durch die Kulturlandschaft von Ligrenda. Unterwegs erwarten Sie ein Rastplatz mit Schutzhütte, Feuerstelle und Badestelle."
+  },
+  "highlights": {
+    "no": [
+      "Idylliske Libygda med vidstrakt utsikt over Vatnebrynvatnet",
+      "En pause og bad ved Vatnebrynvatnet",
+      "Soft-is på Lampeland etter turen"
+    ],
+    "en": [
+      "The idyllic village of Libygda with panoramic views of Lake Vatnebrynvatnet",
+      "Take a break and enjoy a swim in the lake",
+      "Treat yourself to soft-serve ice cream in Lampeland after the ride"
+    ],
+    "de": [
+      "Das idyllische Libygda mit weitem Blick über den See Vatnebrynvatnet",
+      "Eine Pause mit Bademöglichkeit am See",
+      "Soft-Eis in Lampeland nach der Tour"
+    ]
+  },
+  "tips": {
+    "no": [
+      "Ta med mat og drikke, det er få handlemuligheter underveis"
+    ],
+    "en": [
+      "Bring food and drink – there are few places to resupply along the way"
+    ],
+    "de": [
+      "Essen und Trinken mitnehmen – unterwegs gibt es nur wenige Einkaufsmöglichkeiten"
+    ]
+  }
+},
+"lurdalsrunden": {
+  "title": {
+    "no": "Lurdalsrunden",
+    "en": "Lurdalen Loop",
+    "de": "Lurdalen-Runde"
+  },
+  "description": {
+    "no": "Opplev kulturlandskapet mellom Kongsberg og Lampeland med flotte gårder og Numedalslågen som flyter dovent forbi",
+    "en": "Experience the beautiful countryside between Kongsberg and Lampeland, with traditional farms and the peaceful Numedalslågen River winding through the landscape.",
+    "de": "Erleben Sie die reizvolle Kulturlandschaft zwischen Kongsberg und Lampeland mit traditionellen Höfen und dem ruhig dahinfließenden Fluss Numedalslågen."
+  },
+  "highlights": {
+    "no": [
+      "Idylliske Bevergrenda rett utenfor Kongsberg",
+      "Soft-is på Lampeland etter turen",
+      "Kongsberg med Bergverksmuseet og besøk i sølvgruvene"
+    ],
+    "en": [
+      "The idyllic Bevergrenda just outside Kongsberg",
+      "Soft-serve ice cream in Lampeland after the ride",
+      "Explore Kongsberg, the Norwegian Mining Museum and the historic silver mines"
+    ],
+    "de": [
+      "Das idyllische Bevergrenda vor den Toren Kongsbergs",
+      "Soft-Eis in Lampeland nach der Tour",
+      "Kongsberg mit dem Bergwerksmuseum und den historischen Silberminen"
+    ]
+  },
+  "tips": {
+    "no": [
+      "Ta med mat og drikke, det er få handlemuligheter kun på Lampeland og i Kongsberg"
+    ],
+    "en": [
+      "Bring food and drink – shops and cafés are only available in Lampeland and Kongsberg"
+    ],
+    "de": [
+      "Essen und Trinken mitnehmen – Einkaufsmöglichkeiten gibt es nur in Lampeland und Kongsberg"
+    ]
+  }
+},
+"langaasen-rundt": {
+  "title": {
+    "no": "Kjerre og Langåsen rundt",
+    "en": "Kjerre and Langåsen Loop",
+    "de": "Kjerre- und Langåsen-Runde"
+  },
+  "description": {
+    "no": "En en smakebit av jernbanehistorie, kraftproduksjon, vakre kulturlandskap og kilometervis med flott skog.",
+    "en": "A varied ride combining railway heritage, hydropower history, beautiful farmland and kilometres of peaceful forest roads.",
+    "de": "Eine abwechslungsreiche Radtour mit Eisenbahngeschichte, Wasserkraft, schöner Kulturlandschaft und vielen Kilometern durch ruhige Wälder."
+  },
+  "highlights": {
+    "no": [
+      "Numedalsbanen med Kjerre og Veggli stasjon, og mulighet for å sykle dresin før eller etter turen",
+      "Bad i badedammen i Numedalslågen i Veggli",
+      "Flott skogsterreng nær Trillemarka naturreservat på turen over Langåsen"
+    ],
+    "en": [
+      "The historic Numedal Railway, Kjerre and Veggli stations, with the option to ride a rail bike before or after the tour",
+      "Enjoy a swim in the bathing pond by the Numedalslågen River in Veggli",
+      "Beautiful forest scenery near the Trillemarka Nature Reserve"
+    ],
+    "de": [
+      "Die historische Numedalbahn mit den Bahnhöfen Kjerre und Veggli sowie der Möglichkeit, eine Draisine zu fahren",
+      "Baden im Badeteich an der Numedalslågen in Veggli",
+      "Wunderschöne Waldlandschaft nahe dem Naturreservat Trillemarka"
+    ]
+  },
+  "tips": {
+    "no": [
+      "Ta med mat og drikke, det er ingen handlemuligheter underveis"
+    ],
+    "en": [
+      "Bring food and drink – there are no shops or cafés along the route"
+    ],
+    "de": [
+      "Essen und Trinken mitnehmen – unterwegs gibt es keine Einkaufsmöglichkeiten"
+    ]
+  }
+},
     "fjellruta-over-vegglifjell": {
       "title": {
         "no": "Fjellruta over Vegglifjell",
