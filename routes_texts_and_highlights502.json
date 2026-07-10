@@ -47,7 +47,47 @@
         ]
       }
     },
-  "ostskauen-rundt": {
+  "flesberg-bading": {
+  "title": {
+    "no": "Sykkel og bading i Flesberg",
+    "en": "Cycling and Swimming in Flesberg",
+    "de": "Radfahren und Baden in Flesberg"
+  },
+  "description": {
+    "no": "Herlige sommertur med tre fine badeplasser spredt langs ruten fra Lampeland til Flesberg og på Vatnebrynvatnet.",
+    "en": "A delightful summer ride featuring three beautiful swimming spots along the route between Lampeland, Flesberg and Lake Vatnebrynvatnet.",
+    "de": "Eine herrliche Sommerradtour mit drei schönen Badestellen entlang der Strecke zwischen Lampeland, Flesberg und dem See Vatnebrynvatnet."
+  },
+  "highlights": {
+    "no": [
+      "Friluftsområdet på Haugen ved Numedalslågen med flott sandstrand, grillområde og strandvolleyball",
+      "Idylliske Ligrenda med utsikt over Vatnebrynvatnet",
+      "Friluftsområdet ved Vatnebrynvatnet med badplass, grillområde og gapahuk"
+    ],
+    "en": [
+      "The Haugen recreation area by the Numedalslågen River with a sandy beach, barbecue area and beach volleyball court",
+      "The idyllic Ligrenda with panoramic views of Lake Vatnebrynvatnet",
+      "The recreation area at Lake Vatnebrynvatnet with a swimming area, barbecue facilities and a picnic shelter"
+    ],
+    "de": [
+      "Das Erholungsgebiet Haugen an der Numedalslågen mit Sandstrand, Grillplatz und Beachvolleyballfeld",
+      "Das idyllische Ligrenda mit herrlichem Blick über den See Vatnebrynvatnet",
+      "Das Erholungsgebiet am See Vatnebrynvatnet mit Badestelle, Grillplatz und Schutzhütte"
+    ]
+  },
+  "tips": {
+    "no": [
+      "Ta med mat og drikke, det er handlemuligheter på Joker i Flesberg og i Lampeland"
+    ],
+    "en": [
+      "Bring food and drinks – groceries are available at Joker in Flesberg and in Lampeland."
+    ],
+    "de": [
+      "Essen und Getränke mitnehmen – Einkaufsmöglichkeiten gibt es bei Joker in Flesberg sowie in Lampeland."
+    ]
+  }
+},
+"ostskauen-rundt": {
   "title": {
     "no": "Østskauen rundt",
     "en": "Østskauen Loop",
