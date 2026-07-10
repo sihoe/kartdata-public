@@ -68,66 +68,6 @@
         "Rødberg"
       ],
       "routeShape": "loop"
-    },
-    "ostskauen-rundt": {
-  "sortOrder": 16,
-  "color": "#B56A4C",
-  "articleUrl": "https://www.svingom.no/sykkeltur-ostskauen-rundt",
-  "imageUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingombilder-2@main/ostskauenrundt.JPG",
-  "symbols": [
-    "attractions",
-    "bathingspot",
-    "eat",
-    "fishing",
-    "kaffekopp",
-    "hotel",
-    "bikecharge",
-    "secureparking"
-  ],
-  "difficultyLegacy": "middels",
-  "tagsSuggested": [
-    "badeplass",
-    "severdigheter",
-    "kaffe",
-    "mat",
-    "fiske",
-    "overnatting",
-    "lading",
-    "sykkelparkering",
-    "mest-asfalt"
-  ],
-  "surfaceClassAuto": "mest-asfalt",
-  "bikeTypeAuto": [
-    "landevei",
-    "elsykkel"
-  ],
-  "durationEstimate": {
-    "minMinutes": 205,
-    "maxMinutes": 275,
-    "display": "3 t 25 min–4 t 35 min",
-    "model": "v1_len_surface_climb",
-    "assumptions": {
-      "vAsphaltKmh": 16.0,
-      "kClimbKmPer100m": 1.0,
-      "stopBuffer": 0.25,
-      "spread": 0.15
-    }
-  },
-  "needsReview": false,
-  "season": {
-    "months": [
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
-    ]
-  },
-  "bases": [
-    "Lampeland"
-  ],
-  "routeShape": "loop"
 },
 "flesberg-bading": {
   "sortOrder": 19,
@@ -680,6 +620,8 @@
         "fishing",
         "kaffekopp",
         "tent",
+        "handlevogn",
+        "kayak",
         "bikecharge",
         "secureparking"
       ],
@@ -988,7 +930,7 @@
       "routeShape": "loop"
     },
     "kirkebygda-rundt": {
-      "sortOrder": 4,
+      "sortOrder": 6,
       "color": "#E0922F",
       "articleUrl": "https://www.svingom.no/sykkeltur/uvdal/kirkebygda-rundt",
       "imageUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingombilder-1@main/Kirkebygdarundt.jpg",
@@ -1402,7 +1344,7 @@
         "seter",
         "mest-grus"
       ],
-      "surfaceClassAuto": null,
+      "surfaceClassAuto": "mest-grus",
       "bikeTypeAuto": [
         "gravel",
         "elsykkel"
