@@ -254,9 +254,9 @@
 const gpx = new L.GPX(route.gpx, {
   async: true,
 
-  gpx_options: {
-    parseElements: ["track"],
-    joinTrackSegments: true
+gpx_options: {
+  parseElements: ["track", "route"],
+  joinTrackSegments: true
   },
 
   marker_options: {
