@@ -251,18 +251,20 @@
     return new Promise((resolve) => {
       if (!route.gpx){ resolve(false); return; }
 
-      const gpx = new L.GPX(route.gpx, {
-        async: true,
+const gpx = new L.GPX(route.gpx, {
+  async: true,
 
-        markers: { startIcon: null, endIcon: null },
-        marker_options: { startIconUrl: null, endIconUrl: null },
+  gpx_options: {
+    parseElements: ["track"],
+    joinTrackSegments: true
+  },
 
-        createMarker: () => null,
-        createStartMarker: () => null,
-        createEndMarker: () => null,
-        createWaypoint: () => null,
-
-        skipWaypoints: true,
+  marker_options: {
+    startIconUrl: null,
+    endIconUrl: null,
+    shadowUrl: null,
+    wptIconUrls: {}
+  },
 
         polyline_options:{
           color: routeColorByDifficulty(route.difficulty),
