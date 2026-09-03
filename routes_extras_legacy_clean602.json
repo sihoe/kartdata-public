@@ -490,6 +490,7 @@
       },
       "bases": [
         "Veggli",
+        "Rollag",
         "Eggedal"
       ],
       "routeShape": "loop"
@@ -738,6 +739,8 @@
         "Veggli",
         "Rødberg",
         "Lampeland",
+        "Rollag",
+        "Kongsberg",
         "Uvdal"
       ],
       "routeShape": "point_to_point"
