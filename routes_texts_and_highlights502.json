@@ -1005,6 +1005,100 @@
           "Öffnungszeiten der Veggli Fjellstue prüfen"
         ]
       }
+    },
+    {
+  "routes": {
+    "andersnatten-rundt": {
+      "title": {
+        "no": "Andersnatten rundt",
+        "en": "Andersnatten Loop",
+        "de": "Andersnatten-Runde"
+      },
+      "description": {
+        "no": "Sykkeltur rundt det sagnomsuste fjellet Andersnatten, med seterbesøk i sommersesongen og bademuligheter i Nedadalstjenne.",
+        "en": "A bike ride around the legendary mountain Andersnatten, with the opportunity to visit a traditional mountain farm in summer and swim in Nedadalstjenne.",
+        "de": "Eine Radtour rund um den sagenumwobenen Berg Andersnatten, mit der Möglichkeit, im Sommer eine traditionelle Alm zu besuchen und im Nedadalstjenne zu baden."
+      },
+      "highlights": {
+        "no": [
+          "Seterbesøk på Grøset seter",
+          "Sandstrand i Nedalstjenne",
+          "Flott utsikt over Sigdal",
+          "Fine turmuligheter til Andersnatten og Slettefjell"
+        ],
+        "en": [
+          "Visit the traditional mountain farm Grøset seter",
+          "Sandy beach at Nedalstjenne",
+          "Beautiful views over Sigdal",
+          "Great hiking opportunities to Andersnatten and Slettefjell"
+        ],
+        "de": [
+          "Besuch der traditionellen Alm Grøset seter",
+          "Sandstrand am Nedalstjenne",
+          "Schöne Aussicht über Sigdal",
+          "Schöne Wandermöglichkeiten zum Andersnatten und Slettefjell"
+        ]
+      },
+      "tips": {
+        "no": [
+          "Sjekk åpningstidene på Grøset seter",
+          "Bestill overnatting på Båsheim Gjestegård"
+        ],
+        "en": [
+          "Check the opening hours of Grøset seter",
+          "Book a stay at Båsheim Gjestegård"
+        ],
+        "de": [
+          "Prüfe die Öffnungszeiten von Grøset seter",
+          "Buche eine Übernachtung im Båsheim Gjestegård"
+        ]
+      }
+    },
+    "trillemarka-rundt-haglebu": {
+      "title": {
+        "no": "Trillemarka rundt via Prestfoss og Haglebu",
+        "en": "Trillemarka Loop via Prestfoss and Haglebu",
+        "de": "Trillemarka-Runde über Prestfoss und Haglebu"
+      },
+      "description": {
+        "no": "En flott, men krevende tur rundt et av Norges største naturreservat, Trillemarka Rollagsfjell. Variert kulturlandskap, flott utsikt og høyfjellsnatur på Haglebu.",
+        "en": "A beautiful but demanding ride around Trillemarka Rollagsfjell, one of Norway’s largest nature reserves. Enjoy varied cultural landscapes, beautiful views and high-mountain scenery at Haglebu.",
+        "de": "Eine wunderschöne, aber anspruchsvolle Tour rund um Trillemarka Rollagsfjell, eines der größten Naturschutzgebiete Norwegens. Abwechslungsreiche Kulturlandschaften, schöne Ausblicke und Hochgebirgsnatur bei Haglebu."
+      },
+      "highlights": {
+        "no": [
+          "Turen kan gjerne sykles over flere dager med mange overnattingsmuligheter underveis",
+          "Variert natur- og kulturlandskap",
+          "To stavkirker fra middelalderen langs ruten",
+          "Fantastisk mat og vertskap på Eggedal Borgerstue"
+        ],
+        "en": [
+          "Ideal for a multi-day ride, with plenty of accommodation options along the way",
+          "Varied natural and cultural landscapes",
+          "Two medieval stave churches along the route",
+          "Fantastic food and hospitality at Eggedal Borgerstue"
+        ],
+        "de": [
+          "Ideal als mehrtägige Radtour, mit vielen Übernachtungsmöglichkeiten unterwegs",
+          "Abwechslungsreiche Natur- und Kulturlandschaften",
+          "Zwei mittelalterliche Stabkirchen entlang der Route",
+          "Fantastisches Essen und herzliche Gastfreundschaft in der Eggedal Borgerstue"
+        ]
+      },
+      "tips": {
+        "no": [
+          "Ta med ekstra mat/drikke, turen er lang og krevende med lange strekk uten handlemuligheter",
+          "Legg inn overnatting og bruk 3 dager på turen"
+        ],
+        "en": [
+          "Bring extra food and drinks; the ride is long and demanding, with long stretches without shops",
+          "Plan overnight stays and allow 3 days for the ride"
+        ],
+        "de": [
+          "Nimm zusätzliche Verpflegung und Getränke mit; die Tour ist lang und anspruchsvoll, mit langen Abschnitten ohne Einkaufsmöglichkeiten",
+          "Plane Übernachtungen ein und nimm dir 3 Tage Zeit für die Tour"
+        ]
+      }
     }
   }
 }
