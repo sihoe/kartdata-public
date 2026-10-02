@@ -19,8 +19,6 @@
       "bathingspot",
       "cabin",
       "kulturlandskap",
-      "sykkelparkering",
-      "sykkellading"
       "stavkirke",
       "handlevogn",   
       "sykkelparkering",
@@ -1292,7 +1290,7 @@
       "imageUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingombilder-1@main/dusanfossrunden.jpg",
       "symbols": [
      "bathingspot", 
-      "hotel"
+      "hotel",
      "cabin",
       "tent"
       ],
