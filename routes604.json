@@ -1269,10 +1269,50 @@
     ],
     "difficulty": "middels"
   },
-  "trillemarka-rundt-haglebu": {
+"trillemarka-rundt-haglebu": {
+  "id": "trillemarka-rundt-haglebu",
+  "name": {
+    "no": "Trillemarka rundt"
+  },
+  "gpxUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/gpx/trillemarka-rundt-haglebu.gpx",
+  "elevationUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/elevation/trillemarka-rundt-haglebu_elevation_with_surface_legacy.json",
+  "elevationSurfaceUrl": null,
+  "stats": {
+    "distanceKm": 129.6,
+    "climbM": 2044,
+    "descentM": 2044,
+    "maxElevationM": 970,
+    "minElevationM": 103,
+    "biggestClimb": {
+      "gainM": 859,
+      "lengthKm": 49.21,
+      "fromKm": 42.11,
+      "toKm": 91.32,
+      "avgGradePct": 1.7
+    }
+  },
+  "surface": {
+    "totalKm": 129.6,
+    "categoryKm": {
+      "asphalt": 95.9,
+      "gravel": 33.1,
+      "trail": 0.7,
+      "unknown": 0.0
+    },
+    "osmSurfaceKm": {
+      "asphalt": 0.0,
+      "gravel": 0.0,
+      "trail": 0.0,
+      "unknown": 0.0
+    },
+    "maxMatchDistanceM": 26.6
+  },
+  "surfaceSource": "trillemarka-rundt-haglebu/trillemarka-rundt-haglebu_elevation_with_surface_legacy.json",
   "sortOrder": 25,
   "color": "#37394E",
+  "description": "En flott, men krevende tur rundt et av Norges største naturreservat, Trillemarka Rollagsfjell. Variert kulturlandskap, flott utsikt og høyfjellsnatur på Haglebu.",
   "articleUrl": "https://www.svingom.no/sykkeltur/trillemarka-rundt-lang",
+  "pageUrl": "https://www.svingom.no/sykkeltur/trillemarka-rundt-lang",
   "imageUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingombilder-sigdal@main/trillemarka-rundt-lang.jpg",
   "symbols": [
     "bathingspot",
@@ -1287,6 +1327,7 @@
     "kulturlandskap",
     "rasteplass"
   ],
+  "difficulty": "krevende",
   "difficultyLegacy": "krevende",
   "tagsSuggested": [
     "badeplass",
@@ -1329,9 +1370,49 @@
   "routeShape": "loop"
 },
 "andersnatten-rundt": {
+  "id": "andersnatten-rundt",
+  "name": {
+    "no": "Andersnatten rundt"
+  },
+  "gpxUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/gpx/andersnatten-rundt.gpx",
+  "elevationUrl": "https://cdn.jsdelivr.net/gh/sihoe/kartdata@main/elevation/andersnatten-rundt_elevation_with_surface_legacy.json",
+  "elevationSurfaceUrl": null,
+  "stats": {
+    "distanceKm": 19.8,
+    "climbM": 524,
+    "descentM": 524,
+    "maxElevationM": 600,
+    "minElevationM": 140,
+    "biggestClimb": {
+      "gainM": 445,
+      "lengthKm": 10.38,
+      "fromKm": 9.38,
+      "toKm": 19.76,
+      "avgGradePct": 4.3
+    }
+  },
+  "surface": {
+    "totalKm": 19.8,
+    "categoryKm": {
+      "asphalt": 4.2,
+      "gravel": 13.8,
+      "trail": 1.7,
+      "unknown": 0.0
+    },
+    "osmSurfaceKm": {
+      "asphalt": 4.216,
+      "gravel": 0.0,
+      "trail": 1.186,
+      "unknown": 0.0
+    },
+    "maxMatchDistanceM": 29.6
+  },
+  "surfaceSource": "andersnatten-rundt/andersnatten-rundt_elevation_with_surface_legacy.json",
   "sortOrder": 26,
   "color": "#37394E",
+  "description": "Sykkeltur rundt det sagnomsuste fjellet Andersnatten, med seterbesøk i sommersesongen og bademuligheter i Nedadalstjenne.",
   "articleUrl": "https://www.svingom.no/sykkeltur/sigdal/andersnatten-rundt",
+  "pageUrl": "https://www.svingom.no/sykkeltur/sigdal/andersnatten-rundt",
   "imageUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingombilder-sigdal@main/andersnatten-rundt.jpg",
   "symbols": [
     "bathingspot",
@@ -1340,6 +1421,7 @@
     "hotel",
     "seter"
   ],
+  "difficulty": "krevende",
   "difficultyLegacy": "krevende",
   "tagsSuggested": [
     "badeplass",
