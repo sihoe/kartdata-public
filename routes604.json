@@ -38,7 +38,7 @@
       "maxMatchDistanceM": 16.6
     },
     "surfaceSource": "smadoldalen-rundt/smaadoldalenrundt_elevation_with_surface_legacy.json",
-    "sortOrder": 5,
+    "sortOrder": 7,
     "color": "#D38262",
     "description": "En variert og morsom sykkeltur fra Dagalifjell, gjennom Smådøl og Uvdal, med åpne vidder, idylliske seterdaler og storslåtte fjell.",
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/smaadolrunden.jpg",
@@ -154,7 +154,7 @@
       "maxMatchDistanceM": 8.1
     },
     "surfaceSource": "blefjell-juvefossen/blefjell_juvefossen_elevation_with_surface_legacy.json",
-    "sortOrder": 20,
+    "sortOrder": 22,
     "color": "#4484A2",
     "description": "En flott tur fra Blefjell Lodge til den spektakulære Juvefossen, med 50 meter fritt fall, varme svaberg og naturlige badebassenger.",
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/blefjelljuvefossen.jpg",
@@ -208,7 +208,7 @@
       "maxMatchDistanceM": null
     },
     "surfaceSource": "trillemarka-rundt/trillemarka-rundt_elevation_with_surface_legacy.json",
-    "sortOrder": 3,
+    "sortOrder": 4,
     "color": "#37394E",
     "description": "En fantastisk og krevende tur rundt et av Norges største naturreservat, Trillemarka Rollagsfjell, med flott gammel skog, kulturminner og badevann, og kanskje en svipptur til Madonnaen.",
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/trillemarkarundt.jpg",
@@ -267,7 +267,7 @@
       "maxMatchDistanceM": 21.1
     },
     "surfaceSource": "kunst-og-koboltrunden/kunstkobolt_elevation_with_surface_legacy.json",
-    "sortOrder": 14,
+    "sortOrder": 16,
     "color": "#37394E",
     "description": "En langtur fra Lampeland til Blaafarveværket og Kittelsen-museet, gjennom skoger og landskap som inspirerte eventyrmaleren Th. Kittelsen.",
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/kunstogkobolt.jpg",
@@ -324,7 +324,7 @@
       "maxMatchDistanceM": 18.2
     },
     "surfaceSource": "rollag-rundt/rollagrundt_elevation_with_surface_legacy.json",
-    "sortOrder": 9,
+    "sortOrder": 11,
     "color": "#D38262",
     "description": "En flott rundtur i Rollag-området, med vakker utsikt og flere historiske stoppesteder underveis.",
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/rollagrundt.jpg",
@@ -376,7 +376,7 @@
       "maxMatchDistanceM": 21.9
     },
     "surfaceSource": "baklivegen-rundt/baklivegenrundt_elevation_with_surface_legacy.json",
-    "sortOrder": 7,
+    "sortOrder": 9,
     "color": "#D38262",
     "description": "En variert sykkeltur med nydelig utsikt mot storslåtte fjell, flott kulturlandskap og besøk til Uvdal stavkirke.",
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/baklierundt.jpg",
@@ -495,7 +495,7 @@
       "maxMatchDistanceM": 7.6
     },
     "surfaceSource": "blaafarverunden/blaafarverunden_elevation_with_surface_legacy.json",
-    "sortOrder": 15,
+    "sortOrder": 17,
     "color": "#4484A2",
     "description": "En sjarmerende rundtur fra Lampeland til Blaafarveværket. Turen går på stille veier i vakkert kulturlandskap, åpen skog, langs elver og vann og en svingom innom en av få privateide kirker i Norge.",
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/blaafarverunden.jpg",
@@ -554,7 +554,7 @@
       "maxMatchDistanceM": 23.8
     },
     "surfaceSource": "ovrebygderunden/ovrebygderunden_elevation_with_surface_legacy.json",
-    "sortOrder": 8,
+    "sortOrder": 10,
     "color": "#9C6B2A",
     "description": "Fin tur med bademuligheter i Tessungåe og nydelig utsikt mot Tinnsjø og Austbygde. Gode muligheter for å nyte lokale spesialiteter.",
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/ovrebygderundene.jpg",
@@ -610,7 +610,7 @@
       "maxMatchDistanceM": 15.8
     },
     "surfaceSource": "imingfjell-rundt/imingfjellrundt_elevation_with_surface_legacy.json",
-    "sortOrder": 4,
+    "sortOrder": 6,
     "color": "#CA6B2A",
     "description": "En nydelig tur over høyfjellet på Imingfjell i Uvdal. Her kan du se vidt og bredt, mot Hardangervidda, Hallingskarvet og flotte sjøer og vann, samt ta en velfortjent pause på Solheimstulen Turisthytte og Imingfjell Turistheim.",
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/Imingfjellrundt.jpg",
@@ -666,7 +666,7 @@
       "maxMatchDistanceM": 16.6
     },
     "surfaceSource": "kirkebygda-rundt/kirkebygdarundt_elevation_with_surface_legacy.json",
-    "sortOrder": 6,
+    "sortOrder": 8,
     "color": "#E0922F",
     "description": "En familievennlig tur langs Uvdalsåe, opp til den vakre Uvdal stavkirke og gjennom idylliske kulturlandskap til Uvdal sentrum.",
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/Kirkebygdarundt.jpg",
@@ -723,7 +723,7 @@
       "maxMatchDistanceM": 6.3
     },
     "surfaceSource": "norerunden/norerunden_elevation_with_surface_legacy.json",
-    "sortOrder": 10,
+    "sortOrder": 12,
     "color": "#AB4B2A",
     "description": "En rundtur fra fjell til fjord, med høyfjellssykling over Vegglifjell, nedkjøring til Norefjorden, og vakre kulturlandskap langs Kravikfjorden og Numedalslågen.",
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/Norerunden.JPG",
@@ -780,7 +780,7 @@
       "maxMatchDistanceM": 12.4
     },
     "surfaceSource": "skagsaasen-og-kravikfjorden-rundt/skagsaasenrundt_elevation_with_surface_legacy.json",
-    "sortOrder": 11,
+    "sortOrder": 13,
     "color": "#C4683A",
     "description": "En tur gjennom skogslandskap og kulturlandsskap, her kan du besøke Nore stavkirke og stasjonene langs Numedalsbanen og nyte stille veier ved Kravikfjorden.",
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/skagsaasen.jpg",
@@ -833,7 +833,7 @@
       "maxMatchDistanceM": 7.6
     },
     "surfaceSource": "bingenrunden/bingenrunden_elevation_with_surface_legacy.json",
-    "sortOrder": 17,
+    "sortOrder": 19,
     "color": "#84492A",
     "description": "En rundtur fra Lampeland gjennom åpen skog, langs elver og vann, med vakre kulturlandskap i Bingen og Lyngdal. Underveis kan du ta en rast ved Letmolivatnet og nyte utsikten fra Lyngdal kirke.",
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/Bingenrunden.jpg",
@@ -888,7 +888,7 @@
       "maxMatchDistanceM": 1.2
     },
     "surfaceSource": "_with_surface_export/bolkesjorunden_elevation_with_surface_legacy.json",
-    "sortOrder": 23,
+    "sortOrder": 25,
     "color": "#84492A",
     "description": "En tur i skogslandskap og langs vakre Follsjø. Du passerer Norges eldste bolighus og vakre Bolkesjø Gaard. Start og stopp på den flotte badestranden ved Follsjø.",
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/bolkesjorunden.jpg",
@@ -939,7 +939,7 @@
       "maxMatchDistanceM": null
     },
     "surfaceSource": "follsjorundt/follsjorundt_elevation_with_surface_legacy.json",
-    "sortOrder": 22,
+    "sortOrder": 24,
     "color": "#333333",
     "description": "Herlig kombinasjon av morsom stisykling, grus og asfalt. Nydelig kulturlandskap og mange bademuligheter langs Follsjø.",
     "imageUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingombilder-1@main/follsjorundt.jpg",
@@ -990,7 +990,7 @@
       "maxMatchDistanceM": 23.9
     },
     "surfaceSource": "_with_surface_export/dusanfossrunden_elevation_with_surface_legacy.json",
-    "sortOrder": 24,    
+    "sortOrder": 26,    
     "description": "Turens høydepunkt er Dusanfoss, en spektakulær foss godt gjemt i skogen. Det er også flott utsikt over Follsjø og Bolkesjø, fine grusveier og sti.",
     "imageUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingombilder-1@main/dusanfossrunden.jpg",
     "pageUrl": "https://www.svingom.no/sykkeltur/jondal/dusanfossrunden",
@@ -1041,7 +1041,7 @@
       "maxMatchDistanceM": 13.7
     },
     "surfaceSource": "heimseterrunden/heimseterrunden_elevation_with_surface_legacy.json",
-    "sortOrder": 13,
+    "sortOrder": 15,
     "description": "Flott sykkeltur i vakkert fjellterreng med fin utsikt og flere gamle setre langs ruten.",   
     "pageUrl": "https://www.svingom.no/sykkeltur-heimseterrunden-vegglifjell",
     "symbols": [
@@ -1091,7 +1091,7 @@
       "maxMatchDistanceM": 8.8
     },
     "surfaceSource": "ostskauen-rundt/ostskauen-rundt_elevation_with_surface_legacy.json",
-    "sortOrder": 16,
+    "sortOrder": 18,
     "color": "#B56A4C",
     "description": "En sykkeltur i vakkert kulturlandskap, langs flotte vann med bademuligheter og en svingom innom Lyngdal og Våtnås kirke og Olavkilden",
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/ostskauenrundt.JPG",
@@ -1146,7 +1146,7 @@
       "maxMatchDistanceM": 1.2
     },
     "surfaceSource": "lurdalsrunden/lurdalsrunden_elevation_with_surface_legacy.json",
-    "sortOrder": 21,
+    "sortOrder": 23,
     "color": "#37394E",
     "description": "Opplev kulturlandskapet mellom Kongsberg og Lampeland med flotte gårder og Numedalslågen som flyter dovent forbi",
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder-1/main/lurdalsrunden.jpg",
@@ -1200,7 +1200,7 @@
       "maxMatchDistanceM": 1.5
     },
     "surfaceSource": "langaasen-rundt/langaasen-rundt_elevation_with_surface_legacy.json",
-    "sortOrder": 12,
+    "sortOrder": 14,
     "color": "#37394E",
     "description": "En smakebit av jernbanehistorie, kraftproduksjon, vakre kulturlandskap og kilometervis med flott skog.",
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder-1/main/langaasen-rundt.jpg",
@@ -1257,7 +1257,7 @@
       "maxMatchDistanceM": 30.0
     },
     "surfaceSource": "flesberg-bading/flesberg-bading_elevation_with_surface_legacy.json",
-    "sortOrder": 19,
+    "sortOrder": 21,
     "color": "#37394E",
     "description": "Herlige sommertur med tre fine badeplasser spredt langs ruten fra Lampeland til Flesberg og på Vatnebrynvatnet.",
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder-1/main/flesberg-bading.jpg",
@@ -1314,7 +1314,7 @@
     "maxMatchDistanceM": 26.6
   },
   "surfaceSource": "trillemarka-rundt-haglebu/trillemarka-rundt-haglebu_elevation_with_surface_legacy.json",
-  "sortOrder": 25,
+  "sortOrder": 2,
   "color": "#37394E",
   "description": "En flott, men krevende tur rundt et av Norges største naturreservat, Trillemarka Rollagsfjell. Variert kulturlandskap, flott utsikt og høyfjellsnatur på Haglebu.",
   "articleUrl": "https://www.svingom.no/sykkeltur/trillemarka-rundt-lang",
@@ -1416,7 +1416,7 @@
     "maxMatchDistanceM": 29.6
   },
   "surfaceSource": "andersnatten-rundt/andersnatten-rundt_elevation_with_surface_legacy.json",
-  "sortOrder": 26,
+  "sortOrder": 5,
   "color": "#37394E",
   "description": "Sykkeltur rundt det sagnomsuste fjellet Andersnatten, med seterbesøk i sommersesongen og bademuligheter i Nedadalstjenne.",
   "articleUrl": "https://www.svingom.no/sykkeltur/sigdal/andersnatten-rundt",
@@ -1501,7 +1501,7 @@
       "maxMatchDistanceM": 8.7
     },
     "surfaceSource": "vatnebrynvatnet-rundt/vatnebrynvatnet-rundt_elevation_with_surface_legacy.json",
-    "sortOrder": 18,
+    "sortOrder": 20,
     "color": "#37394E",
     "description": "En sykkeltur langs bredden av Vatnebrynvatnet. Flott kulturlandskap i Ligrenda og tilrettelagt friluftsområde med gapahuk, bålplass og badeplass",
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder-1/main/vatnebrynvatnet-rundt.jpg",
