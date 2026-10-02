@@ -1269,6 +1269,109 @@
     ],
     "difficulty": "middels"
   },
+  "trillemarka-rundt-haglebu": {
+  "sortOrder": 25,
+  "color": "#37394E",
+  "articleUrl": "https://www.svingom.no/sykkeltur/trillemarka-rundt-lang",
+  "imageUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingombilder-sigdal@main/trillemarka-rundt-lang.jpg",
+  "symbols": [
+    "bathingspot",
+    "attractions",
+    "handlevogn",
+    "hotel",
+    "tent",
+    "cabin",
+    "seter",
+    "stavkirke",
+    "hiking",
+    "kulturlandskap",
+    "rasteplass"
+  ],
+  "difficultyLegacy": "krevende",
+  "tagsSuggested": [
+    "badeplass",
+    "severdigheter",
+    "matbutikk",
+    "overnatting",
+    "seter",
+    "stavkirke",
+    "fottur",
+    "kulturlandskap",
+    "rasteplass",
+    "flerdagstur",
+    "mest-asfalt"
+  ],
+  "surfaceClassAuto": "mest-asfalt",
+  "bikeTypeAuto": [
+    "gravel",
+    "elsykkel",
+    "hybrid"
+  ],
+  "durationEstimate": null,
+  "needsReview": true,
+  "season": {
+    "months": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "bases": [
+    "Veggli",
+    "Rollag",
+    "Prestfoss",
+    "Rødberg",
+    "Sigdal",
+    "Eggedal"
+  ],
+  "routeShape": "loop"
+},
+"andersnatten-rundt": {
+  "sortOrder": 26,
+  "color": "#37394E",
+  "articleUrl": "https://www.svingom.no/sykkeltur/sigdal/andersnatten-rundt",
+  "imageUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingombilder-sigdal@main/andersnatten-rundt.jpg",
+  "symbols": [
+    "bathingspot",
+    "attractions",
+    "handlevogn",
+    "hotel",
+    "seter"
+  ],
+  "difficultyLegacy": "krevende",
+  "tagsSuggested": [
+    "badeplass",
+    "severdigheter",
+    "matbutikk",
+    "overnatting",
+    "seter",
+    "mest-grus"
+  ],
+  "surfaceClassAuto": "mest-grus",
+  "bikeTypeAuto": [
+    "terreng",
+    "elsykkel"
+  ],
+  "durationEstimate": null,
+  "needsReview": true,
+  "season": {
+    "months": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "bases": [
+    "Sigdal",
+    "Eggedal"
+  ],
+  "routeShape": "loop"
+},
   "vatnebrynvatnet-rundt": {
     "id": "vatnebrynvatnet-rundt",
     "name": {
