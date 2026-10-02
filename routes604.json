@@ -45,12 +45,14 @@
     "pageUrl": "https://www.svingom.no/sykkeltur-smadoldalen-rundt",
     "symbols": [
       "bathingspot",
-      "attractions",
-      "handlevogn",
-      "kaffekopp",
-      "tent",
-      "bikecharge",
-      "secureparking"
+      "cabin",
+      "kulturlandskap",
+      "sykkelparkering",
+      "sykkellading"
+      "stavkirke",
+      "handlevogn",   
+      "sykkelparkering",
+      "sykkellading"
     ],
     "difficulty": "middels"
   },
@@ -99,19 +101,19 @@
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/fjellruta.jpg",
     "pageUrl": "https://www.svingom.no/sykkeltur/fjellruta",
     "symbols": [
-      "bathingspot",
       "attractions",
-      "handlevogn",
-      "kaffekopp",
-      "eat",
-      "fishing",
-      "gaardsdyr",
+      "bathingspot",
+      "seter",
+      "kulturlandskap",
+      "stavkirke",
+      "cabin",
       "tent",
-      "hiking",
-      "kayak",
       "hotel",
-      "bikecharge",
-      "secureparking"
+      "kaffekop",
+      "handlevogn",
+      "sykkelparkering",
+      "badstue",
+      "sykkellading"
     ],
     "difficulty": "krevende"
   },
@@ -160,16 +162,12 @@
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/blefjelljuvefossen.jpg",
     "pageUrl": "https://www.svingom.no/sykkeltur/blefjell/blefjell-lodge-juvefossen",
     "symbols": [
-      "bathingspot",
-      "attractions",
-      "handlevogn",
-      "kaffekopp",
       "eat",
-      "fishing",
-      "hiking",
       "hotel",
-      "bikecharge",
-      "secureparking"
+      "kaffekopp",
+      "tent",
+      "bathingspot",
+      "hiking"
     ],
     "difficulty": "enkel"
   },
@@ -218,14 +216,17 @@
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/trillemarkarundt.jpg",
     "pageUrl": "https://www.svingom.no/sykkeltur/trillemarka-rundt",
     "symbols": [
+      "verneomrade", 
+      "utsiktspunkt",
       "bathingspot",
-      "attractions",
-      "handlevogn",
-      "kaffekopp",
       "eat",
       "hotel",
-      "bikecharge",
-      "secureparking"
+      "kaffekopp",
+      "handlevogn",
+      "attractions",
+      "hotel",
+      "hiking",
+      "sykkellading"
     ],
     "difficulty": "krevende"
   },
@@ -274,14 +275,15 @@
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/kunstogkobolt.jpg",
     "pageUrl": "https://www.svingom.no/sykkeltur/kunst-og-kobolt-runden",
     "symbols": [
-      "bathingspot",
       "attractions",
-      "handlevogn",
-      "kaffekopp",
-      "eat",
+      "gruve-nedlagt",
+      "bathingspot",
+       "cabin",
       "hotel",
-      "bikecharge",
-      "secureparking"
+      "eat",
+      "handlevogn",
+      "sykkellading",
+      "sykkelparkering"
     ],
     "difficulty": "krevende"
   },
@@ -330,8 +332,10 @@
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/rollagrundt.jpg",
     "pageUrl": "https://www.svingom.no/sykkeltur/rollag-rundt",
     "symbols": [
-      "attractions",
-      "handlevogn"
+     "stavkirke",  
+     "attractions",
+     "kulturlandskap",
+     "handlevogn"
     ],
     "difficulty": "enkel"
   },
@@ -380,17 +384,17 @@
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/baklierundt.jpg",
     "pageUrl": "https://www.svingom.no/sykkeltur/uvdal/baklie-rundt",
     "symbols": [
-      "bathingspot",
-      "attractions",
-      "handlevogn",
-      "kaffekopp",
-      "eat",
-      "fishing",
-      "gaardsdyr",
-      "tent",
-      "kayak",
-      "bikecharge",
-      "secureparking"
+      "stavkirke",
+      "kulturlandskap",
+        "bathingspot",
+        "kayak",
+      "cabin",
+        "tent",
+        "eat",  
+        "kaffekopp",
+        "handlevogn",
+        "sykkelparkering",
+        "sykkellading"
     ],
     "difficulty": "enkel"
   },
@@ -439,18 +443,18 @@
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/numedalsruta.jpg",
     "pageUrl": "https://www.svingom.no/sykkeltur/numedalsruta",
     "symbols": [
-      "bathingspot",
-      "attractions",
+     "stavkirke", 
+     "kulturlandskap",
+     "bathingspot",
+     "attractions",
+     "cabin",
+     "hotel",
+     "tent",
+     "dresin", 
+     "eat",
       "handlevogn",
-      "kaffekopp",
-      "eat",
-      "fishing",
-      "tent",
-      "hiking",
-      "kayak",
-      "hotel",
-      "bikecharge",
-      "secureparking"
+      "sykkelparkering",
+      "sykkellading"
     ],
     "difficulty": "krevende"
   },
@@ -499,15 +503,17 @@
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/blaafarverunden.jpg",
     "pageUrl": "https://www.svingom.no/sykkeltur/blaafarverunden",
     "symbols": [
-      "bathingspot",
       "attractions",
-      "handlevogn",
-      "kaffekopp",
-      "eat",
-      "fishing",
+      "gruve-nedlagt",
+      "kulturlandskap",
+      "utsiktspunkt",
+      "bathingspot",
+      "cabin",
       "hotel",
-      "bikecharge",
-      "secureparking"
+      "eat",
+      "handlevogn",
+      "sykkelparkering",
+      "sykkellading"
     ],
     "difficulty": "krevende"
   },
@@ -556,17 +562,14 @@
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/ovrebygderundene.jpg",
     "pageUrl": "https://www.svingom.no/sykkeltur/tinn/ovrebygde-rundene",
     "symbols": [
-      "attractions",
+     "kulturlandskap",
       "bathingspot",
+     "kaffekopp",
+      "eat",    
+      "handlevogn",
       "cabin",
-      "eat",
-      "fishing",
-      "gaardsdyr",
-      "hiking",
-      "kaffekopp",
-      "tent",
-      "bikecharge",
-      "secureparking"
+      "sykkelparkering",
+      "sykkellading"
     ],
     "difficulty": "enkel"
   },
@@ -615,13 +618,14 @@
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/Imingfjellrundt.jpg",
     "pageUrl": "https://www.svingom.no/sykkeltur-imingfjell-rundt",
     "symbols": [
+      "utsiktspunkt",  
       "bathingspot",
+      "hiking",
       "cabin",
-      "eat",
-      "fishing",
       "kaffekopp",
-      "tent",
-      "bikecharge"
+      "eat",
+      "fishing", 
+      "sykkellading"
     ],
     "difficulty": "krevende"
   },
@@ -670,15 +674,15 @@
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/Kirkebygdarundt.jpg",
     "pageUrl": "https://www.svingom.no/sykkeltur/uvdal/kirkebygda-rundt",
     "symbols": [
-      "attractions",
-      "bathingspot",
-      "cabin",
-      "eat",
-      "fishing",
+      "stavkirke",
+      "kulturlandskap",
       "kaffekopp",
+      "eat",   
+      "cabin",
       "tent",
-      "bikecharge",
-      "secureparking"
+      "handlevogn",
+      "sykkelparkering",
+      "sykkellading"
     ],
     "difficulty": "enkel"
   },
@@ -729,11 +733,13 @@
     "symbols": [
       "attractions",
       "bathingspot",
-      "cabin",
-      "eat",
-      "kaffekopp",
-      "bikecharge",
-      "secureparking"
+      "kaffekopp", 
+      "eat", 
+      "dresin", 
+      "hotel",
+      "handlevogn",
+      "sykkelparkering",
+      "sykkellading"
     ],
     "difficulty": "middels"
   },
@@ -782,7 +788,11 @@
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/skagsaasen.jpg",
     "pageUrl": "https://www.svingom.no/sykkeltur/nore/skagsaasen-rundt",
     "symbols": [
-      "attractions"
+      "stavkirke", 
+      "kulturlandskap",
+      "bathingspot",
+      "attractions",
+      "handlevogn"
     ],
     "difficulty": "middels"
   },
@@ -831,14 +841,13 @@
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/Bingenrunden.jpg",
     "pageUrl": "https://www.svingom.no/sykkeltur/bingen-runden",
     "symbols": [
-      "attractions",
+      "kirke",
       "bathingspot",
-      "eat",
-      "fishing",
-      "kaffekopp",
       "hotel",
-      "bikecharge",
-      "secureparking"
+      "eat",
+      "handlevogn",
+      "sykkelparkering",
+      "sykkellading"
     ],
     "difficulty": "middels"
   },
@@ -887,12 +896,9 @@
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/bolkesjorunden.jpg",
     "pageUrl": "https://www.svingom.no/sykkeltur/bolkesjo/bolkesjorunden",
     "symbols": [
-      "attractions",
       "bathingspot",
-      "eat",
-      "fishing",
-      "cabin",
-      "hiking"
+      "cabin", 
+      "tent"
     ],
     "difficulty": "enkel"
   },
@@ -941,12 +947,9 @@
     "imageUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingombilder-1@main/follsjorundt.jpg",
     "pageUrl": "https://www.svingom.no/sykkeltur/bolkesjo/follsjorundt",
     "symbols": [
-      "attractions",
       "bathingspot",
-      "eat",
-      "fishing",
       "cabin",
-      "hiking"
+      "tent"
     ],
     "difficulty": "middels"
   },
@@ -994,16 +997,10 @@
     "imageUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingombilder-1@main/dusanfossrunden.jpg",
     "pageUrl": "https://www.svingom.no/sykkeltur/jondal/dusanfossrunden",
     "symbols": [
-      "attractions",
-      "bathingspot",
-      "eat",
-      "fishing",
-      "cabin",
-      "hiking",
-      "bikecharge",
-      "hotel",
-      "kayak",
-      "secureparking"
+     "bathingspot", 
+      "hotel"
+     "cabin",
+      "tent"
     ],
     "difficulty": "enkel"
   },
@@ -1050,7 +1047,10 @@
     "description": "Flott sykkeltur i vakkert fjellterreng med fin utsikt og flere gamle setre langs ruten.",   
     "pageUrl": "https://www.svingom.no/sykkeltur-heimseterrunden-vegglifjell",
     "symbols": [
-      "hiking"
+        "hiking",
+        "utsiktspunkt",
+        "eat", 
+        "kaffekopp"
     ],
     "difficulty": "middels"
   },
@@ -1099,14 +1099,13 @@
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder/main/ostskauenrundt.JPG",
     "pageUrl": "https://www.svingom.no/sykkeltur-ostskauen-rundt",
     "symbols": [
-      "attractions",
+      "kirke",
       "bathingspot",
-      "eat",
-      "fishing",
-      "kaffekopp",
       "hotel",
-      "bikecharge",
-      "secureparking"
+      "eat",
+      "handlevogn",
+      "sykkelparkering",
+      "sykkellading"
     ],
     "difficulty": "middels"
   },
@@ -1155,11 +1154,12 @@
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder-1/main/lurdalsrunden.jpg",
     "pageUrl": "https://www.svingom.no/sykkeltur-lurdalsrunden",
     "symbols": [
-      "handlevogn",
       "bathingspot",
       "hotel",
       "eat",
-      "attractions"
+      "handlevogn",
+      "sykkelparkering",
+      "sykkellading"
     ],
     "difficulty": "middels"
   },
@@ -1208,10 +1208,15 @@
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder-1/main/langaasen-rundt.jpg",
     "pageUrl": "https://www.svingom.no/sykkeltur/veggli/kjerre-langaasen-rundt",
     "symbols": [
-      "bathingspot",
-      "handlevogn",
-      "attractions",
-      "hotel"
+    "attractions",
+    "dresin",    
+    "bathingspot",
+    "handlevogn",
+    "hotel",
+    "eat",
+    "handlevogn",
+    "sykkelparkering",
+    "sykkellading"
     ],
     "difficulty": "middels"
   },
@@ -1260,12 +1265,15 @@
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder-1/main/flesberg-bading.jpg",
     "pageUrl": "https://www.svingom.no/sykkeltur/flesberg-sykkel-og-bading",
     "symbols": [
-      "handlevogn",
       "bathingspot",
+      "stavkirke",
+      "kulturlandskap",
+      "fishing",
       "hotel",
       "eat",
-      "fishing",
-      "attractions"
+      "handlevogn",
+      "sykkelparkering",
+      "sykkellading"
     ],
     "difficulty": "middels"
   },
@@ -1315,17 +1323,19 @@
   "pageUrl": "https://www.svingom.no/sykkeltur/trillemarka-rundt-lang",
   "imageUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingombilder-sigdal@main/trillemarka-rundt-lang.jpg",
   "symbols": [
-    "bathingspot",
-    "attractions",
-    "handlevogn",
-    "hotel",
-    "tent",
-    "cabin",
-    "seter",
-    "stavkirke",
-    "hiking",
-    "kulturlandskap",
-    "rasteplass"
+      "stavkirke", 
+      "kulturlandskap",  
+      "utsiktspunkt",
+      "bathingspot",
+      "attractions",
+      "eat",
+      "kaffekopp",
+      "hotel",
+      "tent",
+      "cabin",
+      "handlevogn",
+      "sykkelparkering",
+      "sykkellading"
   ],
   "difficulty": "krevende",
   "difficultyLegacy": "krevende",
@@ -1415,11 +1425,11 @@
   "pageUrl": "https://www.svingom.no/sykkeltur/sigdal/andersnatten-rundt",
   "imageUrl": "https://cdn.jsdelivr.net/gh/sihoe/svingombilder-sigdal@main/andersnatten-rundt.jpg",
   "symbols": [
+    "seter",
     "bathingspot",
-    "attractions",
-    "handlevogn",
+    "hiking",
     "hotel",
-    "seter"
+    "handlevogn"
   ],
   "difficulty": "krevende",
   "difficultyLegacy": "krevende",
@@ -1499,13 +1509,14 @@
     "imageUrl": "https://raw.githubusercontent.com/sihoe/svingombilder-1/main/vatnebrynvatnet-rundt.jpg",
     "pageUrl": "https://www.svingom.no/sykkeltur-vatnebrynvatnet",
     "symbols": [
-      "handlevogn",
+      "bathingspot",
+      "kulturlandskap",
+      "fishing",
       "hotel",
       "eat",
-      "bathingspot",
-      "hiking",
-      "attractions",
-      "fishing"
+      "handlevogn",
+      "sykkelparkering",
+      "sykkellading"
     ],
     "difficulty": "enkel"
   }
