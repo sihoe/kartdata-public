@@ -47,8 +47,6 @@
       "bathingspot",
       "cabin",
       "kulturlandskap",
-      "sykkelparkering",
-      "sykkellading"
       "stavkirke",
       "handlevogn",   
       "sykkelparkering",
@@ -998,7 +996,7 @@
     "pageUrl": "https://www.svingom.no/sykkeltur/jondal/dusanfossrunden",
     "symbols": [
      "bathingspot", 
-      "hotel"
+      "hotel",
      "cabin",
       "tent"
     ],
