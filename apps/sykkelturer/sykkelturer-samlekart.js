@@ -218,7 +218,14 @@
       preferCanvas:true
     });
 
-    L.tileLayer(OSM_TILES, { attribution:"© OpenStreetMap" }).addTo(map);
+    L.tileLayer(
+  "https://cache.kartverket.no/v1/wmts/1.0.0/topo/default/webmercator/{z}/{y}/{x}.png",
+  {
+    attribution: "© Kartverket",
+    maxZoom: 18,
+    crossOrigin: true
+  }
+).addTo(map);
 
     routeLayerGroup = L.featureGroup().addTo(map);
     midMarkerGroup = L.layerGroup().addTo(map);
